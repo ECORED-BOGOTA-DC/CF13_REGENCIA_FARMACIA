@@ -23,7 +23,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Reglamentación del servicio farmaceútico',
         desarrolloContenidos: true,
       },
 

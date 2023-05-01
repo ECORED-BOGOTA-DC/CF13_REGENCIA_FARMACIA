@@ -17,3 +17,45 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal
+  .banner-principal__row
+    .banner-principal__info
+      .banner-principal__componente h1, .banner-principal__descripcion p
+        color: black !important
+    .banner-principal__img
+      padding-right: 0 !important
+      img
+        max-width: 404px
+        margin-left: auto
+.slyder-a-edit
+  .slyder-a__tipo-b
+    .slyder-a__btn--atrs, .slyder-a__btn--sigt
+      background-color: #FF9D00
+    .slyder-a__bullets
+      .slyder-a__bullets__item
+        background-color: #C9BCF3
+      .slyder-a__bullets__item--active
+        background-color: #7E5EE3
+        border-color: #7E5EE3
+.conatiner-offset-2
+  &.bloque-texto-b
+    &:before
+      background-color: transparent !important
+  position: relative
+  width: calc(100% + 3rem)
+  background-color: #EEF5FF !important
+  padding: 2rem
+  border-radius: 20px
+  border-bottom-left-radius: 0
+  margin-left: -20%
+  margin-right: auto
+  z-index: 2
+  box-shadow: 0 0 5px 3px #00000010
+  @media (max-width: 1200px)
+    margin-right: auto
+    margin-bottom: -3rem
+  @media (max-width: 768px)
+    margin: 0
+    margin-bottom: .5rem
+    border-radius: 20px
