@@ -42,7 +42,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-1.jpg' style="ma-width: 610px")
+              img(src='@/assets/curso/temas/tema1/img-1.jpg' style="max-width: 610px")
       .py-4.py-md-5(titulo="Especiales" :icono="require('@/assets/curso/temas/tema1/t-2.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -91,7 +91,7 @@
                 p.mb-0 Preparación de guías para la dación o aceptación de donaciones de medicamentos y dispositivos médicos.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-2.jpg' style="ma-width: 610px")
+              img(src='@/assets/curso/temas/tema1/img-2.jpg' style="max-width: 610px")
 
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center

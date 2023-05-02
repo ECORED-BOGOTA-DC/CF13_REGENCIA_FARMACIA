@@ -47,7 +47,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_2 Áreas técnicas
+      h2#t_2_2 2.2 Áreas técnicas
     
     p.mb-5 Para los establecimientos farmacéuticos como los Depósitos de Drogas y las Agencias de Especialidades Farmacéuticas, establecimientos farmacéuticos minoristas como las Farmacias-Droguerías y las Droguerías, y servicios farmacéuticos hospitalarios de alta, mediana y baja complejidad, las áreas están determinadas por la resolución 1403 del 2007.
       br
@@ -235,6 +235,156 @@
     
     p.mb-5 Es el proceso de verificación y control que se le realiza al documento (receta o fórmula), entregada por el paciente. A continuación, se describen sus elementos:
     
+    TabsB.color-acento-contenido(style="border: none")
+      .py-4.py-md-5(titulo="Requisitos")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p.mb-5 Están regulados por el decreto 780 del 2016 de la siguiente manera:
+            ul
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Debe hacerse por escrito, previa evaluación del paciente y registro de sus condiciones y diagnóstico en la historia clínica, utilizando para ello la Denominación Común Internacional (nombre genérico).
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Solo podrá hacerse por personal de salud debidamente autorizado de acuerdo con su competencia.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Debe ser en letra clara y legible, con las indicaciones necesarias para su administración.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 En idioma español, en forma escrita ya sea por copia mecanográfica, medio electromagnético y/o computarizado.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 No podrá contener enmendaduras o tachaduras, siglas, claves, signos secretos, abreviaturas o símbolos químicos, con la excepción de las abreviaturas aprobadas por el Comité de Farmacia y Terapéutica de la Institución.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Debe permitir la confrontación entre el medicamento prescrito y el medicamento dispensado (en el caso ambulatorio) y administrado (en el caso hospitalario) por parte del profesional a cargo del servicio farmacéutico y del Departamento de Enfermería o la dependencia que haga sus veces.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Debe permitir la correlación de los medicamentos prescritos con el diagnóstico.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 La dosis de cada medicamento debe expresarse en el sistema métrico decimal y en casos especiales en unidades internacionales cuando se requiera.
+              li.d-flex
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px")
+                p.mb-0 Cuando se trate de preparaciones magistrales, adicionalmente, se debe especificar claramente cada uno de los componentes.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema2/img-9.jpg' style="max-width: 610px")
+
+      .py-4.py-md-5(titulo="Prescripción común")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p.mb-5 Están regulados por el decreto 780 del 2016 de la siguiente manera:
+            ul
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 La entrega el médico tratante después de las consultas.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Son elaboradas a mano o digital y tienen un mes de caducidad para ser validadas en el servicio farmacéutico.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema2/img-10.jpg' style="max-width: 610px")
+              
+      .py-4.py-md-5(titulo="Prescripción especial")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            ul
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Se utiliza un formato especial prestablecido por el fondo nacional de estupefacientes.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Están impresas en un papel de autocopiado.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Solo pueden diligenciarse a mano y con lapicero negro.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Solo tienen validez por 15 días hábiles a partir de su elaboración.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema2/img-10.jpg' style="max-width: 610px")
+
+      .py-4.py-md-5(titulo="Interpretación")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p.mb-5 Inicia con la revisión de los datos mostrados a continuación y estipulados en el decreto 780 del 2016. El farmacéutico, posterior a su revisión:
+            ul
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Está en toda la capacidad de comprender cada uno de los productos farmacéuticos que están allí prescritos y de evidenciar cualquier error que se presente. En caso tal de que esto último suceda, de ser posible debe comunicarse con el médico tratante y/o no dispensar la receta.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Por ningún motivo debe adivinar cualquiera de los productos allí prescritos o alguna de sus características, es decir, como concentración, forma farmacéutica, dosis, etc.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Solo puede dispensar prescripciones médicas escritas, por ningún motivo debe aceptar recetas orales, puesto que debe existir un documento de respaldo, excepto para productos OTC.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema2/img-12.jpg' style="max-width: 610px")
+    Separador
+
+    .titulo-segundo.color-acento-contenido
+      h2#t_2_6 2.6 Alistamiento de productos farmacéuticos
+
+    .col-lg-10.mx-auto.tarjeta.p-4.d-flex.flex-wrap.align-items-center(style="background-color: #F1FBFC")
+      img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img-13.svg' style="max-width: 210px")
+      p.col-lg.ps-lg-4 Posterior a la recepción de la prescripción, se procede al alistamiento (separación) de los productos farmacéuticos en las cantidades completas recetadas.
+        br
+        br
+        |Por el tema de adherencia al tratamiento y el uso racional de los medicamentos, estos se deben entregar completos.
+
+    p.mb-5 Al realizar la entrega de los productos al usuario o paciente, se le debe proporcionar toda la información necesaria como:
+
+    ul.mb-5
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Riesgos al suspender el tratamiento.
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Modo de uso de los dispositivos médicos.
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Forma y vía de administración, enfatizando en los que son más complejos de administrar: polvos para reconstituir, comprimidos sublinguales, gotas ópticas y oftalmológicas, óvulos, inhaladores, entre otros; posología, almacenamiento en casa, etc.
+    
+    .cajon.cajon-edit.color-acento-contenido.col-md-8.col-lg-7.mx-auto.p-4.mb-5(style="background-color: #BFEEF4")
+      p(data-aos="fade-right") Debemos tener presente que los medicamentos que no requieren prescripción médica por ser de venta libre, no se pueden recomendar, es decir, cuando el usuario se acerca preguntando por un medicamento para el dolor de cabeza el farmacéutico no puede recomendarle ninguno, muy diferente si llega solicitando uno en específico y pregunta cómo se debe administrar. Siempre se debe hablar al usuario sobre los <b>riesgos de la automedicación. </b>
+
+    p.mb-5 Tengamos en cuenta que el uso racional de los medicamentos es un acto que abarca:
+
+    .d-flex.flex-wrap
+      .col-lg-5.d-flex.align-items-center
+        .conatiner-offset-3.p-3
+          p.mb-3.w-100(data-aos="fade-left") Los productos antes de ser empacados, deben ser enseñados al usuario, confirmado nombre del producto y cantidad entregada, advirtiendo que antes de retirarse del establecimiento debe estar seguro de lo que se le dispensó, porque después de salir de allí no se aceptan devoluciones. En caso de ser a domicilio, el usuario debe realizar la revisión de lo recibido antes que el domiciliario se retire.
+            br
+            br
+            |Por último, se procede al registro y/o facturación de los productos entregados o vendidos en las fuentes implementadas para ello ya sea software, Excel o manual.
+      img.col-lg-6(src='@/assets/curso/temas/tema2/img-14.jpg' style="max-width: 714px")
+
+    Separador
+
+    .titulo-segundo.color-acento-contenido
+      h2#t_2_7 2.7 Fuentes de información
+    
+    p.mb-5 Toda área de dispensación debe contar con referentes bibliográficos de medicamentos ya sea físicos o digitales que provean al farmacéutico de toda la información necesaria para dar una asesoría al paciente eficaz, completa y veraz, como: 
+
+    ul
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Formulario Terapéutico nacional.
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Vademécum de especialidades farmacéuticas.
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Información completa de los medicamentos creada por la institución.
+      li.d-flex.align-items-start.mb-3
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+        p.mb-0 Textos farmacológicos.
+
 </template>
 
 <script>

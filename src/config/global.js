@@ -23,19 +23,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Reglamentación del servicio farmaceútico',
+        titulo: 'Procesos generales y especiales del servicio farmacéutico',
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Proceso de dispensación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Instalaciones locativas',
+            titulo: 'nstalaciones locativas',
             hash: 't_2_1',
           },
           {
@@ -73,19 +73,20 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manual de procesos y procedimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estilos de vida saludable',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Proceso de distribución de medicamentos y dispositivos médicos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -103,7 +104,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Administración de medicamentos',
         desarrolloContenidos: true,
         subMenu: [
           {
