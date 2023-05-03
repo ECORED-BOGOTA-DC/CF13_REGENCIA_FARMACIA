@@ -11,37 +11,37 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-1.jpg')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 La resolución 1403 del 2007 en el artículo 9, en cuanto a las buenas prácticas del servicio farmacéutico, normatiza que: 
           br
           br
           |“Las instituciones prestadoras de servicios de salud, establecimientos farmacéuticos y personas autorizadas que realizan actividades y/o procesos del servicio farmacéutico contarán con un conjunto de normas, procesos, procedimientos, recursos, mecanismos de control y documentación, de carácter técnico y/o administrativo, que aseguren el cumplimiento Obligatorio del objeto de la actividad o el proceso respectivo”.  
-    p.mb-5 Dando cumplimiento a ello y a los estándares de calidad exigidos por el Sistema Único de Habilitación del Sistema de Garantía de Calidad de la Atención en Salud (SOGCS), todo establecimiento o servicio farmacéutico tiene la responsabilidad de implementar o ajustar el manual de procesos y procedimientos de dispensación que permita su perfecto desempeño sin que se vea afectado por la rotación del recurso humano.
+    p.mb-5(data-aos="fade-right") Dando cumplimiento a ello y a los estándares de calidad exigidos por el Sistema Único de Habilitación del Sistema de Garantía de Calidad de la Atención en Salud (SOGCS), todo establecimiento o servicio farmacéutico tiene la responsabilidad de implementar o ajustar el manual de procesos y procedimientos de dispensación que permita su perfecto desempeño sin que se vea afectado por la rotación del recurso humano.
 
-    p.mb-5 <b>Contenido del Manual de procesos y procedimientos </b>
+    p.mb-5(data-aos="fade-right") <b>Contenido del Manual de procesos y procedimientos </b>
       br
       br
       |El manual debe contar como mínimo con la siguiente información:
 
     ul
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Objetivos: general y específicos.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Objetivos: general y específicos.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Alcance y responsables.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Alcance y responsables.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Términos y definiciones.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Términos y definiciones.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Desarrollo.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Desarrollo.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Anexos.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Anexos.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Referencias bibliográficas de ser necesario.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Referencias bibliográficas de ser necesario.
 </template>
 
 <script>

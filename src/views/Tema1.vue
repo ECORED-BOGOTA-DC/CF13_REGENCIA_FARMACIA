@@ -10,7 +10,7 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Generales" :icono="require('@/assets/curso/temas/tema1/t-1.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -40,7 +40,7 @@
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px")
                 p.mb-0 Destrucción o desnaturalización de medicamentos y dispositivos médicos.
         
-          .col-md-6
+          .col-md-6(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema1/img-1.jpg' style="max-width: 610px")
       .py-4.py-md-5(titulo="Especiales" :icono="require('@/assets/curso/temas/tema1/t-2.svg')")
@@ -106,7 +106,7 @@
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
     
-    p.mb-0 Posterior a la lectura de los capítulos y teniendo claro los temas, analice y reflexione sobre cuáles procesos aplican para cada uno de los establecimientos y servicios farmacéuticos.
+    p.mb-0(data-aos="fade-right") Posterior a la lectura de los capítulos y teniendo claro los temas, analice y reflexione sobre cuáles procesos aplican para cada uno de los establecimientos y servicios farmacéuticos.
 </template>
 
 <script>

@@ -7,32 +7,33 @@
         span 5
       h1 Proceso de distribución de medicamentos y dispositivos médicos
     
-    p En general, es la entrega de los medicamentos y dispositivos médicos a los pacientes y/o usuarios de los establecimientos o servicios farmacéuticos.
+    p(data-aos="fade-right") En general, es la entrega de los medicamentos y dispositivos médicos a los pacientes y/o usuarios de los establecimientos o servicios farmacéuticos.
+      br
       |El proceso debe ser seguro, eficaz, rápido y controlado y se divide en distribución externa y distribución interna. A continuación, conoceremos cada uno de ellos.
     Separador 
 
     .titulo-segundo.color-acento-contenido
       h2#t_5_1 5.1 Tipos de carga
-    p.mb-5 Esta distribución tiene dos instancias:
+    p.mb-5(data-aos="fade-right") Esta distribución tiene dos instancias:
 
     .col-xl-10.mx-auto.mb-5.tarjeta.p-4(style="background-color: #F7F6FE")
       ul
         li.d-flex.align-items-start.mb-3
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 La primera es la entrega de los productos farmacéuticos a los pacientes y usuarios desde los establecimientos farmacéuticos o el traslado.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") La primera es la entrega de los productos farmacéuticos a los pacientes y usuarios desde los establecimientos farmacéuticos o el traslado.
         li.d-flex.align-items-start.mb-3
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 La segunda es el traslado y entrega de los productos farmacéuticos desde los distribuidores mayoristas a los distribuidores minoristas, por ejemplo, cuando un depósito de drogas entrega el pedido a una farmacia o farmacia-droguería. En ambos casos puede haber una venta y por ende intercambio de dinero.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") La segunda es el traslado y entrega de los productos farmacéuticos desde los distribuidores mayoristas a los distribuidores minoristas, por ejemplo, cuando un depósito de drogas entrega el pedido a una farmacia o farmacia-droguería. En ambos casos puede haber una venta y por ende intercambio de dinero.
 
-    img.col-lg-10.mx-auto(src="@/assets/curso/temas/tema5/img-1.svg")
-    p.mb-5 En la siguiente imagen se ilustra el canal de distribución externo de productos farmacéuticos.
+    img.col-lg-10.mx-auto.mb-5(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left")
+    p.mb-5(data-aos="fade-right") En la siguiente imagen se ilustra el canal de distribución externo de productos farmacéuticos.
 
     .col-lg-10.col-xl-8.mx-auto
       .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
         p.mb-0.text-small Figura 3
         span.text-small Canal de distribución externa
-      img.d-none.d-md-flex(src="@/assets/curso/temas/tema5/img-2.svg")
-      img.d-flex.d-md-none(src="@/assets/curso/temas/tema5/img-2-1.svg")
+      img.d-none.d-md-flex(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-left")
+      img.d-flex.d-md-none(src="@/assets/curso/temas/tema5/img-2-1.svg" data-aos="fade-left")
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_5_2 5.2 Tipos de distribución interna
@@ -43,13 +44,13 @@
         br
         |“El proceso que comprende la prescripción de un medicamento a un paciente en una Institución Prestadora de Servicios de Salud por parte del profesional legalmente autorizado, la dispensación por parte del servicio farmacéutico, la administración correcta en la dosis y vía prescrita y en el momento oportuno por el profesional de la salud legalmente autorizado para tal fin y el registro de los medicamentos administrados y/o la devolución debidamente sustentada de los no administrados con el fin de contribuir al éxito de la farmacoterapia. El servicio farmacéutico deberá determinar el sistema o los sistemas de distribución intra­ hospitalaria de medicamentos y dispositivos médicos que deban implementarse en la Institución Prestadora de Servicios de Salud, para garantizar la oportunidad, seguridad, eficiencia y calidad de los medicamentos y dispositivos médicos que deban suministrarse a los pacientes” (p.51). 
 
-    h3 Clases de distribución interna
-    p.mb-5 Los siguientes son los sistemas de distribución interna:
+    h3(data-aos="fade-right") Clases de distribución interna
+    p.mb-5(data-aos="fade-right") Los siguientes son los sistemas de distribución interna:
 
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="<em>Stock</em>")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
             p.mb-5 Este consiste en poner en cada servicio asistencial como urgencias, cirugía, etc, a través de farmacias satélites o carros de reanimación un stock (aprobado por el Comité de Farmacia y Terapéutica) de todos los medicamentos y dispositivos médicos con cantidades fijas; el cual quedará a cargo de la enfermera jefe de cada servicio (debe tener claro si el consumo es para la prestación del servicio o debe ser cargado al paciente) y deberá tener reposición cada 24 horas por parte del servicio farmacéutico.
               br
               |Es responsabilidad del director técnico del servicio farmacéutico capacitar a los jefes de enfermería en el manejo y conservación de los productos, además de realizar auditorías periódicas al stock.
@@ -60,7 +61,7 @@
               br
               br
               |<b>Desventajas:</b>  Puede haber pérdidas y despilfarros de los productos por falta de control y mayor desgaste del personal farmacéutico.
-          .col-md-5
+          .col-md-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema5/img-3.jpg' style="max-width: 610px")
         
@@ -125,6 +126,7 @@
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0.text-small Optimiza los cobros a los pacientes permitiendo facturaciones más exactas de los gastos.
+                  br
                   |Permite mayor adaptabilidad a todos los procedimientos realizados por medios magnéticos.
             p.fw-bold Desventajas:
             p.ps-4.text-small para la reestructuración requiere de una alta inversión financiera y un desgaste significativo por parte del personal del servicio farmacéutico y la organización de las formas dosificadas, ya que pocas veces se puede contar con zonas de reempaque y reenvase propias, lo que implica negociaciones con entidades externas.
@@ -132,14 +134,14 @@
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema5/img-6.jpg' style="max-width: 610px")
-    h3 Infraestructura
+    h3(data-aos="fade-right") Infraestructura
 
-    p.mb-5 Para la implementación del SDMDU, el servicio farmacéutico debe cumplir con las siguientes características:
+    p.mb-5(data-aos="fade-right") Para la implementación del SDMDU, el servicio farmacéutico debe cumplir con las siguientes características:
 
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="<em>Área</em>")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
             p.mb-5 Debe contar con un área que permita realizar los procesos generales y especiales que le apliquen según la normatividad legal vigente y cada una de las actividades propias del sistema como:
             ul
               li.d-flex.align-items-start.mb-3
@@ -157,7 +159,7 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Espacio para reempaque y reenvase de medicamentos.
-          .col-md-5
+          .col-md-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema5/img-7.jpg' style="max-width: 610px")
         
@@ -227,22 +229,23 @@
             figure
               img(src='@/assets/curso/temas/tema5/img-10.jpg' style="max-width: 610px")
 
-    h3 Reempaque de medicamentos
+    h3(data-aos="fade-right") Reempaque de medicamentos
 
-    p.mb-5 En Colombia, la mayor parte de medicamentos vienen en presentaciones multidosis, que se ajustan perfectamente a las necesidades de pacientes ambulatorios, pero no se acoplan muy bien a la distribución intrahospitalaria, por lo cual es necesario reempacarlos en dosis únicas que facilitan su distribución a cada unidad de servicio.
+    p.mb-5(data-aos="fade-right") En Colombia, la mayor parte de medicamentos vienen en presentaciones multidosis, que se ajustan perfectamente a las necesidades de pacientes ambulatorios, pero no se acoplan muy bien a la distribución intrahospitalaria, por lo cual es necesario reempacarlos en dosis únicas que facilitan su distribución a cada unidad de servicio.
+      br
       |El ajuste de los medicamentos en presentación unidosis proporciona muchas ventajas sobre los otros sistemas, entre esas están: 
 
     ul.mb-5.col-lg-10.mx-auto
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Ofrece seguridad en las dosis.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Ofrece seguridad en las dosis.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Permite realizar el seguimiento adecuado a las terapias con medicamentos a cada paciente.
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Permite realizar el seguimiento adecuado a las terapias con medicamentos a cada paciente.
       li.d-flex.align-items-start.mb-3
-        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-        p.mb-0 Ofrece un manejo más controlado.
-    p.mb-5 Este proceso está a cargo del servicio farmacéutico y debe garantizar seguridad (paciente correcto, dosis correcta y vía y frecuencia correcta), eficacia (prescripción + distribución + administración = atención correcta) y control (evitar errores antes de la administración de los medicamentos al paciente) 
+        img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+        p.mb-0(data-aos="fade-left") Ofrece un manejo más controlado.
+    p.mb-5(data-aos="fade-right") Este proceso está a cargo del servicio farmacéutico y debe garantizar seguridad (paciente correcto, dosis correcta y vía y frecuencia correcta), eficacia (prescripción + distribución + administración = atención correcta) y control (evitar errores antes de la administración de los medicamentos al paciente) 
       br
       br
       |A continuación analizaremos la información relacionada con el proceso de reempaque:
@@ -250,7 +253,7 @@
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="Multidosis a unidosis")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -258,7 +261,7 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Cuando la presentación del medicamento sea por ejemplo frasco 100 tabletas, estas se empacaron en el momento que sean solicitadas.
-          .col-md-5
+          .col-md-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema5/img-11.jpg' style="max-width: 610px")
         
@@ -344,21 +347,21 @@
           p.mb-4 El SDMDU debe contar con fuentes de información como historias clínicas, perfiles farmacoterapéuticos, actas de reuniones o comités institucionales, formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
           img(src='@/assets/curso/temas/tema5/img-14.jpg')
 
-    h3 Reenvase de medicamentos
+    h3(data-aos="fade-right") Reenvase de medicamentos
 
-    p.mb-5 Este proceso consiste en la preparación de mezclas intravenosas como nutriciones parenterales, medicamentos oncológicos, entre otros, que requieren protocolos de áreas estériles y especiales que solo son competencia de los Químicos Farmacéuticos.
+    p.mb-5(data-aos="fade-right") Este proceso consiste en la preparación de mezclas intravenosas como nutriciones parenterales, medicamentos oncológicos, entre otros, que requieren protocolos de áreas estériles y especiales que solo son competencia de los Químicos Farmacéuticos.
 
-    h3 Etapas del SDMDU
+    h3(data-aos="fade-right") Etapas del SDMDU
 
-    p.mb-5 Las siguientes son las etapas relacionadas con el SDMDU:
+    p.mb-5(data-aos="fade-right") Las siguientes son las etapas relacionadas con el SDMDU:
 
     .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #EEF5FF")
       SlyderA(tipo="b")
         .row
-          .col-md-5
+          .col-md-5(data-aos="fade-right")
             p.mb-4.fw-bold Prescripción médica
             p El médico tratante determina el diagnóstico del paciente y posterior a ello realiza la prescripción médica manual (Usar papel calcante) o sistematizada con todos los datos legalmente requeridos y se la entrega a la enfermera jefe encargada el servicio.
-          .col-md-7
+          .col-md-7(data-aos="fade-left")
             figure
               img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-15.jpg' style="max-width: 660px")
         
@@ -456,12 +459,12 @@
             figure
               img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.jpg' style="max-width: 660px")
 
-    h3 Control del sistema de distribución de dosis unitaria
+    h3(data-aos="fade-right") Control del sistema de distribución de dosis unitaria
 
-    p.mb-5 El control del SDMDU se realiza a través de los indicadores de gestión de la calidad para este proceso. La fórmula que se aplica es:
+    p.mb-5(data-aos="fade-right") El control del SDMDU se realiza a través de los indicadores de gestión de la calidad para este proceso. La fórmula que se aplica es:
 
     .col-xl-9.tarjeta.offset-2.p-4(style="background-color: #E5DFFA")
-      img.mx-auto(src='@/assets/curso/temas/tema5/img-21.svg' style="max-width: 690px")
+      img.mx-auto(src='@/assets/curso/temas/tema5/img-21.svg' style="max-width: 690px" data-aos="fade-left")
 </template>
 
 <script>

@@ -9,7 +9,7 @@
     
     .offset-xl-1.col-xl-9.d-flex.flex-wrap.mb-5
       img.col-lg-7(src="@/assets/curso/temas/tema4/img-1.jpg")
-      p.col.lg-5.p-4.mb-0.text-white(style="background-color: #7E5EE3") Son una serie de hábitos que dan como resultado a lo que la Organización Mundial de la Salud (OMS) define como: <b>“estado completo de bienestar físico, mental y social”</b>.
+      p.col.lg-5.p-4.mb-0.text-white(style="background-color: #7E5EE3" data-aos="fade-left") Son una serie de hábitos que dan como resultado a lo que la Organización Mundial de la Salud (OMS) define como: <b>“estado completo de bienestar físico, mental y social”</b>.
         br
         br
         |Ante esto, se podría decir que un individuo con salud, es alguien que no solo tiene ausencia de enfermedad, sino que es una persona feliz, con equilibrio emocional y mental, contribuye a la sana convivencia y minimiza el grado de los factores de riesgo en su vida.

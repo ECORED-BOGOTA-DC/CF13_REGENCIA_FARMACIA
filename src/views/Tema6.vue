@@ -7,12 +7,12 @@
         span 6
       h1 Administración de medicamentos
     
-    p.mb-0 En la administración de medicamentos entran dos puntos importantes que son: la forma farmacéutica del medicamento y la vía de administración de este medicamentos, las cuales estudiaremos a continuación.
+    p.mb-0(data-aos="fade-right") En la administración de medicamentos entran dos puntos importantes que son: la forma farmacéutica del medicamento y la vía de administración de este medicamentos, las cuales estudiaremos a continuación.
     Separador 
     .titulo-segundo.color-acento-contenido
       h2#t_6_1 6.1 Tipos de carga
     
-    p.mb-4 Se entiende por forma farmacéutica a la unión del principio activo + excipientes + vehículo que da como resultado la forma final del medicamento.
+    p.mb-4(data-aos="fade-right") Se entiende por forma farmacéutica a la unión del principio activo + excipientes + vehículo que da como resultado la forma final del medicamento.
       br
       br
       |Los objetivos de estas formas son:
@@ -21,27 +21,27 @@
       .col-12.col-lg-7.tarjeta.my-auto.p-4.order-2.order-lg-1(style="background-color: #F7F6FE")
         ul
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Facilitar su administración.
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Facilitar su administración.
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Favorecer su acceso.
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Favorecer su acceso.
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Dosificar con exactitude.
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Dosificar con exactitude.
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Proteger los medicamentos.
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Proteger los medicamentos.
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Garantizar limpieza y esterilidad.
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Garantizar limpieza y esterilidad.
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Hacer agradable la administración.
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Hacer agradable la administración.
           li.d-flex.align-items-start.mb-4
-            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-            p.mb-0 Favorecer la absorción  del medicamento.
-      img.col-lg-5.ps-lg-4.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 508px")
+            img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+            p.mb-0(data-aos="fade-left") Favorecer la absorción  del medicamento.
+      img.col-lg-5.ps-lg-4.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 508px" data-aos="fade-left")
     
     p.mb-4 Las formas farmacéuticas se clasifican en:
     h4 Sólidas
@@ -49,13 +49,13 @@
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Tabletas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-md-5.mx-auto.mb-4.mb-md-0(data-aos="fade-right")
             p Son compactas, normalmente son redondas o alargadas y no siempre tiene camuflaje de sabor y olor.
               br
               br
               |Se clasifican en <em>tabletas orales</em> su desintegración se hace en el estómago para iniciar la absorción del principio activo, <em>tabletas masticables</em> su desintegración se hace en la boca y <em>tabletas vaginales</em> donde su desintegración es dentro de la vagina.
         
-          .col-md-6
+          .col-md-6(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img-2.jpg' style="max-width: 575px")
       .py-3.py-md-4(titulo="Cápsulas")
         .row
@@ -119,15 +119,15 @@
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-9.jpg' style="max-width: 575px")
 
-    h4 Semisólidas
+    h4(data-aos="fade-right") Semisólidas
 
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Cremas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-md-5.mx-auto.mb-4.mb-md-0(data-aos="fade-right")
             p Son de uso tópico, contienen entre el 60 y el 80% de agua formado un líquido espeso y homogéneo.
         
-          .col-md-6
+          .col-md-6(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img-10.jpg' style="max-width: 575px")
       .py-3.py-md-4(titulo="Pastas")
         .row
@@ -162,8 +162,8 @@
     .tarjeta.p-4.mb-5(style="background-color: #FAFAFA")
       LineaTiempoC.color-secundario(text-small)
         .d-flex.flex-wrap(titulo="Elixir")
-          img(src='@/assets/curso/temas/tema6/img-16.jpg' style="max-width: 295px")
-          .col-md.ps-md-4
+          img(src='@/assets/curso/temas/tema6/img-16.jpg' style="max-width: 295px" data-aos="fade-right")
+          .col-md.ps-md-4(data-aos="fade-left")
             h3.mb-4 Elixir
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         .d-flex.flex-wrap(titulo="Solución")
@@ -220,10 +220,10 @@
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Inhaladores o aerosoles")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
-            p Son medicamentos envasados de tal forma que al paciente usarlos salen en forma gaseosa y sean tomados por medio inhalatorio.
+          .col-md-5.mx-auto.mb-4.mb-md-0(data-aos="fade-right")
+            p(data-aos="fade-left") Son medicamentos envasados de tal forma que al paciente usarlos salen en forma gaseosa y sean tomados por medio inhalatorio.
         
-          .col-md-6
+          .col-md-6(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img-27.jpg' style="max-width: 575px")
       .py-3.py-md-4(titulo="Gases medicinales")
         .row
@@ -244,13 +244,13 @@
     .titulo-segundo.color-acento-contenido
       h2#t_6_2 6.2	Vías de administración de medicamentos
     
-    p.mb-5 Es la forma como el medicamento ingresa al organismo, por lo cual existen diferentes vías para cada una de las formas farmacéuticas estudiadas anteriormente, las cuales se describen a continuación:
+    p.mb-5(data-aos="fade-right") Es la forma como el medicamento ingresa al organismo, por lo cual existen diferentes vías para cada una de las formas farmacéuticas estudiadas anteriormente, las cuales se describen a continuación:
 
     .tarjeta.p-4.mb-5(style="background-color: #FAFAFA")
       LineaTiempoC.color-secundario(text-small)
         .d-flex.flex-wrap(titulo="Oral")
-          img.mb-auto(src='@/assets/curso/temas/tema6/img-30.jpg' style="max-width: 295px")
-          .col-md.ps-md-4
+          img.mb-auto(src='@/assets/curso/temas/tema6/img-30.jpg' style="max-width: 295px" data-aos="fade-right")
+          .col-md.ps-md-4(data-aos="fade-left")
             p Las formas farmacéuticas que hacen parte de esta vía son las tabletas, cápsulas, grageas, granulados, suspensiones, enema oral, jarabes e inhaladores bucales. Es una vía segura que en caso de exceso de dosis o intoxicación permite contrarrestar el daño con lavado gástrico. La desventaja que tiene es que la absorción de los medicamentos es muy lenta y variable. En muchos pacientes ocasiona irritación gástrica.
               br
               br
@@ -324,26 +324,26 @@
     .titulo-segundo.color-acento-contenido
       h2#t_6_3 6.3	Manejo de residuos y políticas posconsumo
     
-    p.mb-5 Los medicamentos utilizados por los pacientes por diferentes causas como cambios de tratamiento, vencimiento o sobrantes, se convierten en residuos, los cuales deben ser manejados de forma diferente a los residuos que se originan en casa.
+    p.mb-5(data-aos="fade-right") Los medicamentos utilizados por los pacientes por diferentes causas como cambios de tratamiento, vencimiento o sobrantes, se convierten en residuos, los cuales deben ser manejados de forma diferente a los residuos que se originan en casa.
       br
       br
       |Por tal motivo el Ministerio de Ambiente y Desarrollo Sostenible viene trabajando una estrategia con el propósito de fomentar la gestión ambiental adecuada de los residuos posconsumo con el objetivo que estos sean sujetos a sistemas de gestión diferencial y eludir que la disposición final se realice conjuntamente con los residuos hogareños. 
       br
       |Uno de los siete programas posconsumo es el de los medicamentos vencidos, que solo incluye los siguientes residuos:
 
-    .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4(style="background-color: #F7F6FE")
+    .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4.mb-5(style="background-color: #F7F6FE")
       ul
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Envases, empaques, cajas, frascos y ampolletas.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Envases, empaques, cajas, frascos y ampolletas.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Medicamentos cuya fecha de vencimiento ya expiró.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Medicamentos cuya fecha de vencimiento ya expiró.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Medicamentos parcialmente consumidos.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Medicamentos parcialmente consumidos.
     
-    p.mb-5 Para el descarte de estos residuos se cuenta con unos contenedores seguros denominados “punto azul”, instalados en farmacias, Farmacias – Droguerías, servicios farmacéuticos e IPS, en los cuales cualquier persona de la comunidad puede ir y depositar los residuos posconsumo que cumplan con los requisitos anteriormente mencionados.
+    p.mb-5(data-aos="fade-right") Para el descarte de estos residuos se cuenta con unos contenedores seguros denominados “punto azul”, instalados en farmacias, Farmacias – Droguerías, servicios farmacéuticos e IPS, en los cuales cualquier persona de la comunidad puede ir y depositar los residuos posconsumo que cumplan con los requisitos anteriormente mencionados.
       br
       br
       |En la siguiente imagen se ilustran los tipos de contenedores que pueden utilizarse para depositar los residuos.
@@ -352,33 +352,33 @@
       .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
         p.mb-0.text-small Figura 4
         span.text-small Contenedores para depositar residuos
-      img(src="@/assets/curso/temas/tema6/img-39.jpg")
+      img(src="@/assets/curso/temas/tema6/img-39.jpg" data-aos="fade-left")
 
-    p.mb-5 La entrega de los residuos se debe realiza bajo los siguientes parámetros:
+    p.mb-5(data-aos="fade-right") La entrega de los residuos se debe realiza bajo los siguientes parámetros:
 
     .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4(style="background-color: #F7F6FE")
       ul
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Reunir todos los residuos en una bolsa con buena resistencia.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Reunir todos los residuos en una bolsa con buena resistencia.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Verificar que todos los frascos y envases estén bien cerrados.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Verificar que todos los frascos y envases estén bien cerrados.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Destruir de forma parcial las etiquetas y marcas para evitar su falsificación.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Destruir de forma parcial las etiquetas y marcas para evitar su falsificación.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Revisar que en la bolsa solo se encuentren los residuos posconsumo autorizados, es decir, que no haya productos que no pueden ser entregados en los puntos de recolección.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Revisar que en la bolsa solo se encuentren los residuos posconsumo autorizados, es decir, que no haya productos que no pueden ser entregados en los puntos de recolección.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Dirigirse al punto de recolección autorizado.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Dirigirse al punto de recolección autorizado.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Depositar los residuos en el contenedor, verificando que pasen por el sistema de protección para evitar que sean extraídos y posteriormente falsificados.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Depositar los residuos en el contenedor, verificando que pasen por el sistema de protección para evitar que sean extraídos y posteriormente falsificados.
         li.d-flex.align-items-start.mb-4
-          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-          p.mb-0 Si la bolsa en la que transportó los residuos tiene líquidos o sólidos relacionados con los medicamentos, depositar también la bolsa, en caso contrario se puede depositarla en otro contenedor diferente al punto azul.
+          img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
+          p.mb-0(data-aos="fade-left") Si la bolsa en la que transportó los residuos tiene líquidos o sólidos relacionados con los medicamentos, depositar también la bolsa, en caso contrario se puede depositarla en otro contenedor diferente al punto azul.
 </template>
 
 <script>
