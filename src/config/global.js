@@ -132,12 +132,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -332,9 +332,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Lina Marcela Ayala Pardo',
+          cargo: 'Experta temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Gustavo Santis Mancipe',
+          cargo: 'Diseñador instrucciona',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital.',
         },
       ],
     },
@@ -342,12 +364,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Adriana Marcela Suarez Eljure',
           cargo: 'Diseñador web',
           centro: 'Nombre centro de formación',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro: 'Nombre centro de formación',
         },
