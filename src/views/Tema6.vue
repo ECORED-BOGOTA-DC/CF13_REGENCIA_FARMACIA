@@ -10,7 +10,7 @@
     p.mb-0(data-aos="fade-right") En la administración de medicamentos entran dos puntos importantes que son: la forma farmacéutica del medicamento y la vía de administración de este medicamentos, las cuales estudiaremos a continuación.
     Separador 
     .titulo-segundo.color-acento-contenido
-      h2#t_6_1 6.1 Tipos de carga
+      h2#t_6_1 6.1 Formas farmacéuticas
     
     p.mb-4(data-aos="fade-right") Se entiende por forma farmacéutica a la unión del principio activo + excipientes + vehículo que da como resultado la forma final del medicamento.
       br
@@ -28,7 +28,7 @@
             p.mb-0(data-aos="fade-left") Favorecer su acceso.
           li.d-flex.align-items-start.mb-4
             img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") Dosificar con exactitude.
+            p.mb-0(data-aos="fade-left") Dosificar con exactitud.
           li.d-flex.align-items-start.mb-4
             img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
             p.mb-0(data-aos="fade-left") Proteger los medicamentos.
@@ -44,7 +44,7 @@
       img.col-lg-5.ps-lg-4.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 508px" data-aos="fade-left")
     
     p.mb-4 Las formas farmacéuticas se clasifican en:
-    h4 Sólidas
+    h4.mb-4 Sólidas
 
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Tabletas")
@@ -119,7 +119,7 @@
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-9.jpg' style="max-width: 575px")
 
-    h4(data-aos="fade-right") Semisólidas
+    h4.mb-4(data-aos="fade-right") Semisólidas
 
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Cremas")
@@ -136,7 +136,7 @@
         
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-11.jpg' style="max-width: 575px")
-      .py-3.py-md-4(titulo="Geles o Jaleas")
+      .py-3.py-md-4(titulo="Geles o jaleas")
         .row
           .col-md-5.mx-auto.mb-4.mb-md-0
             p Son una preparación con una base permanente sólida y una dispersa líquida.
@@ -158,6 +158,7 @@
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-14.jpg' style="max-width: 575px")
 
+    h4.mb-4(data-aos="fade-right") Líquidas
 
     .tarjeta.p-4.mb-5(style="background-color: #FAFAFA")
       LineaTiempoC.color-secundario(text-small)
@@ -165,7 +166,7 @@
           img(src='@/assets/curso/temas/tema6/img-16.jpg' style="max-width: 295px" data-aos="fade-right")
           .col-md.ps-md-4(data-aos="fade-left")
             h3.mb-4 Elixir
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p Son preparaciones con vehículos hidro-alcohólicos y azucaradas de uso oral.
         .d-flex.flex-wrap(titulo="Solución")
           img(src='@/assets/curso/temas/tema6/img-17.jpg' style="max-width: 295px")
           .col-md.ps-md-4
@@ -216,7 +217,9 @@
           .col-md.ps-md-4
             h3.mb-4 Emulsion
             p Sus principios activos se encuentran disueltos en dos vehículos uno acuoso y el otro aceitoso por lo cual su aspecto es lechoso.
-        
+
+    h4.mb-4(data-aos="fade-right") Gaseosas
+
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Inhaladores o aerosoles")
         .row
@@ -228,7 +231,7 @@
       .py-3.py-md-4(titulo="Gases medicinales")
         .row
           .col-md-5.mx-auto.mb-4.mb-md-0
-            p Son medicamentos envasados de tal forma que al paciente usarlos salen en forma gaseosa y sean tomados por medio inhalatorio.
+            p Son una mezcla de componentes gaseosos que entran en contacto directo con el paciente al ser utilizados.
         
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-28.jpg' style="max-width: 575px")
@@ -292,7 +295,7 @@
               |Para su administración el paciente debe estar en una posición sentado con la cabeza hacia el lado contrario de la aplicación y la oreja debe estar limpia y seca, la persona encargada de la administración del medicamento debe tener las manos limpias y el paciente debe esperar unos minutos antes de cambiar de posición para evitar pérdida del medicamento.
         .d-flex.flex-wrap(titulo="Rectal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-36.jpg' style="max-width: 295px")
-          .col-md.ps-md-4
+          .col-md.ps-md-4 
             p Las formas farmacéuticas que hacen parte de esta vía son las gaseosas. Es una vía fácil de utilizar ya que los medicamentos vienen en presentaciones que ayudan a esto.
               br
               br

@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Reglamentación del servicio farmaceútico
-    
+      h1 Procesos generales y especiales del servicio farmacéutico
+    p.mb-5 Dentro del servicio farmacéutico, los procesos se clasifican en:
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Generales" :icono="require('@/assets/curso/temas/tema1/t-1.svg')")
         .row
@@ -100,13 +100,13 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
-              p Con el propósito de tener claro qué son, cómo funcionan y demás información de cada uno de los procesos generales y especiales del servicio farmacéutico, se propone ingresar a Resolución 1403 de 2007 allí en el capítulo II – hoja 44 encontrará los procedimientos para los procesos generales y en el capítulo III – hoja 57 los procedimiento para los procesos especiales: 
+              p Con el propósito de tener claro qué son, cómo funcionan y demás información de cada uno de los procesos generales y especiales del servicio farmacéutico, se propone ingresar a Resolución 1403 de 2007 allí en el capítulo II - hoja 44 encontrará los procedimientos para los procesos generales y en el capítulo III - hoja 57 los procedimiento para los procesos especiales: 
             .col-sm-auto(data-aos="fade-left")
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo1_Resolucion_1403_2007.pdf')" target="_blank")
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
     
-    p.mb-0(data-aos="fade-right") Posterior a la lectura de los capítulos y teniendo claro los temas, analice y reflexione sobre cuáles procesos aplican para cada uno de los establecimientos y servicios farmacéuticos.
+    p.mb-0(data-aos="fade-right") Luego de la lectura de los capitulos y teniendo claros los temas, analice y reflexione sobre cuáles procesos aplican para cada uno de los establecimientos y servicios farmacéuticos.
 </template>
 
 <script>

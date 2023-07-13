@@ -38,9 +38,9 @@
               p Es importante saber que todo servicio o establecimiento farmacéutico debe acogerse a los requisitos determinados por la resolución 1403 del 2007 - Capítulo II - título I - numeral 1.1 - condiciones locativas.
                 br
                 br
-                |La información específica en relación a dichas condiciones puede consultarla en el siguiente PDF.
+                |La información específica con relación a dichas condiciones puede consultarla en el siguiente PDF.
             .col-sm-auto(data-aos="fade-left")
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo1_Resolucion_1403_2007.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo2_Resolucion_1403_2007-p23-25.pdf')" target="_blank")
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
 
@@ -85,7 +85,7 @@
                 p.mb-0 El área de cuarentena se divide en I naranja y II negra para el almacenamiento adecuado de los productos y evitar confusiones.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medica-mentos con dispositivos y/o con fitoterapéuticos, etc.
+                p.mb-0 El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medicamentos con dispositivos y/o con fitoterapéuticos, etc.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
@@ -96,7 +96,7 @@
         .row
           .col-md-5
             p.mb-5.fw-bold Droguerías
-            p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
+            p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla.
           .col-md-7
             figure
               img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px")
@@ -144,14 +144,12 @@
         p.mb-0(data-aos="fade-left") Medición de la dosis.
       li.d-flex.align-items-start.mb-3
         img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
-        p.mb-0(data-aos="fade-left") Como se debe administrar el medicamento y cuidados que se deben tener, y la importancia a la adherencia del tratamiento .
+        p.mb-0(data-aos="fade-left") Como se debe administrar el medicamento y cuidados que se deben tener, y la importancia a la adherencia del tratamiento.
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_4 2.4 Uso racional de los medicamentos
-    
-    p.mb-5(data-aos="fade-right") En caso tal que la dispensación la realice un Técnico en Servicios Farmacéuticos, este se deberá limitar solo a ofrecer información sobre:
 
     .cajon.cajon-edit.color-acento-contenido.col-md-8.col-lg-7.mx-auto.p-4.mb-5(style="background-color: #BFEEF4")
       p(data-aos="fade-right") La Organización Mundial de la Salud (OMS), en 1985 define que hay Uso Racional de los Medicamentos (URM) cuando:
@@ -173,14 +171,15 @@
     .container-edit-1(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}")
       .col-lg-10.mx-auto.mb-5
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-          p.mb-0.text-small Buenas prácticas del paciente para el USO RACIONAL DE MEDICAMENTOS
+          p.mb-0.text-small.fw-bold Figura 1
+          span.text-small Buenas prácticas del paciente para el USO RACIONAL DE MEDICAMENTOS
         p.text-center(data-aos="fade-right") En <span style="font-weight: bold; color: #00BCD4">2010</span>, la OMS calculó que <span style="font-weight: bold; color: #00BCD4">más de la mitad de los medicamentos</span> se prescriben, dispensan o venden de forma inapropiada, y que la mitad de los pacientes <span style="font-weight: bold; color: #00BCD4">no los toman correctamente.</span>
       .col-lg-4.col-xl-3
         .d-flex.align-items-center.mb-4
           .container-pill
             img(src="@/assets/curso/temas/tema2/decorador-1.svg")
             span 1
-          p.mb-0.ps-3(data-aos="fade-right") Evita adquirir medicamentos sin receta.
+          p.mb-0.ps-3(data-aos="fade-right") Evite adquirir medicamentos sin receta.
         .d-flex.align-items-center.mb-4
           .container-pill
             img(src="@/assets/curso/temas/tema2/decorador-1.svg")
@@ -227,13 +226,13 @@
           .container-pill
             img(src="@/assets/curso/temas/tema2/decorador-1.svg")
             span 10
-          p.mb-0.ps-3(data-aos="fade-right") Revisar la caducidad del medicamento en el envase antes de utilizarla.
+          p.mb-0.ps-3(data-aos="fade-right") Revisar la caducidad del medicamento en el envase antes de utilizarlo.
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_5 2.5 Recepción de la prescripción médica
     
-    p.mb-5(data-aos="fade-right") Es el proceso de verificación y control que se le realiza al documento (receta o fórmula), entregada por el paciente. A continuación, se describen sus elementos:
+    p.mb-5(data-aos="fade-right") Es el proceso de verificación y control que se le realiza al documento (receta o fórmula), entregado por el paciente. A continuación, se describen sus elementos:
     
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="Requisitos")
@@ -252,7 +251,7 @@
                 p.mb-0 Debe ser en letra clara y legible, con las indicaciones necesarias para su administración.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 En idioma español, en forma escrita ya sea por copia mecanográfica, medio electromagnético y/o computarizado.
+                p.mb-0 En idioma español, en forma escrita ya sea por copia mecanográfica, medio electromagnético o computarizado.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 No podrá contener enmendaduras o tachaduras, siglas, claves, signos secretos, abreviaturas o símbolos químicos, con la excepción de las abreviaturas aprobadas por el Comité de Farmacia y Terapéutica de la Institución.
@@ -276,7 +275,6 @@
       .py-4.py-md-5(titulo="Prescripción común")
         .row
           .col-md-6.mb-4.mb-md-0
-            p.mb-5 Están regulados por el decreto 780 del 2016 de la siguiente manera:
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -351,9 +349,7 @@
         p.mb-0(data-aos="fade-left") Forma y vía de administración, enfatizando en los que son más complejos de administrar: polvos para reconstituir, comprimidos sublinguales, gotas ópticas y oftalmológicas, óvulos, inhaladores, entre otros; posología, almacenamiento en casa, etc.
     
     .cajon.cajon-edit.color-acento-contenido.col-md-8.col-lg-7.mx-auto.p-4.mb-5(style="background-color: #BFEEF4")
-      p(data-aos="fade-right") Debemos tener presente que los medicamentos que no requieren prescripción médica por ser de venta libre, no se pueden recomendar, es decir, cuando el usuario se acerca preguntando por un medicamento para el dolor de cabeza el farmacéutico no puede recomendarle ninguno, muy diferente si llega solicitando uno en específico y pregunta cómo se debe administrar. Siempre se debe hablar al usuario sobre los <b>riesgos de la automedicación. </b>
-
-    p.mb-5(data-aos="fade-right") Tengamos en cuenta que el uso racional de los medicamentos es un acto que abarca:
+      p(data-aos="fade-right") Debemos tener presente que los medicamentos que no requieren prescripción médica por ser de venta libre, no se pueden recomendar, es decir, cuando el usuario se acerca preguntando por un medicamento para el dolor de cabeza el farmacéutico no puede recomendarle ninguno, muy diferente si llega solicitando uno en específico y pregunta cómo se debe administrar. <b>Siempre se debe hablar al usuario sobre los riesgos de la automedicación. </b>
 
     .d-flex.flex-wrap
       .col-lg-5.d-flex.align-items-center
@@ -361,7 +357,7 @@
           p.mb-3.w-100(data-aos="fade-left") Los productos antes de ser empacados, deben ser enseñados al usuario, confirmado nombre del producto y cantidad entregada, advirtiendo que antes de retirarse del establecimiento debe estar seguro de lo que se le dispensó, porque después de salir de allí no se aceptan devoluciones. En caso de ser a domicilio, el usuario debe realizar la revisión de lo recibido antes que el domiciliario se retire.
             br
             br
-            |Por último, se procede al registro y/o facturación de los productos entregados o vendidos en las fuentes implementadas para ello ya sea software, Excel o manual.
+            |Por último, se procede al registro o facturación de los productos entregados o vendidos en las fuentes implementadas para ello ya sea software, Excel o manual.
       img.col-lg-6(src='@/assets/curso/temas/tema2/img-14.jpg' style="max-width: 714px")
 
     Separador

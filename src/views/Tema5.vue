@@ -13,7 +13,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido
-      h2#t_5_1 5.1 Tipos de carga
+      h2#t_5_1 5.1 Distribución externa
     p.mb-5(data-aos="fade-right") Esta distribución tiene dos instancias:
 
     .col-xl-10.mx-auto.mb-5.tarjeta.p-4(style="background-color: #F7F6FE")
@@ -25,18 +25,22 @@
           img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
           p.mb-0(data-aos="fade-left") La segunda es el traslado y entrega de los productos farmacéuticos desde los distribuidores mayoristas a los distribuidores minoristas, por ejemplo, cuando un depósito de drogas entrega el pedido a una farmacia o farmacia-droguería. En ambos casos puede haber una venta y por ende intercambio de dinero.
 
-    img.col-lg-10.mx-auto.mb-5(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left")
-    p.mb-5(data-aos="fade-right") En la siguiente imagen se ilustra el canal de distribución externo de productos farmacéuticos.
+    p.mb-5 Teniendo presente que en todo momento se debe garantizar la conservación de los productos farmacéuticos, desde que son elaborados hasta que son administrados a los pacientes, desde el proceso de distribución, además de <b>determinar si canal de distribución será propio o externo</b>, se deben tener en cuenta aspectos como:
 
-    .col-lg-10.col-xl-8.mx-auto
-      .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-        p.mb-0.text-small Figura 3
-        span.text-small Canal de distribución externa
+
+    .col-lg-10.col-xl-8.mx-auto.mb-5
       img.d-none.d-md-flex(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-left")
       img.d-flex.d-md-none(src="@/assets/curso/temas/tema5/img-2-1.svg" data-aos="fade-left")
+
+    p.mb-5(data-aos="fade-right") En la siguiente imagen se ilustra el canal de distribución externo de productos farmacéuticos.
+
+    .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+      p.mb-0.text-small.fw-bold Figura 3
+      span.text-small Canal de distribución externa
+    img.col-lg-10.mx-auto(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left")
     Separador
     .titulo-segundo.color-acento-contenido
-      h2#t_5_2 5.2 Tipos de distribución interna
+      h2#t_5_2 5.2 Distribución interna
     
     .cajon.cajon-edit.color-secundario.col-md-8.col-lg-7.mx-auto.p-4.mb-5(style="background-color: #EAE5FB")
       p(data-aos="fade-right") La resolución 1403 del 2007 la define como:
@@ -51,16 +55,15 @@
       .py-4.py-md-5(titulo="<em>Stock</em>")
         .row.col-xl-10.mx-auto
           .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
-            p.mb-5 Este consiste en poner en cada servicio asistencial como urgencias, cirugía, etc, a través de farmacias satélites o carros de reanimación un stock (aprobado por el Comité de Farmacia y Terapéutica) de todos los medicamentos y dispositivos médicos con cantidades fijas; el cual quedará a cargo de la enfermera jefe de cada servicio (debe tener claro si el consumo es para la prestación del servicio o debe ser cargado al paciente) y deberá tener reposición cada 24 horas por parte del servicio farmacéutico.
+            p.mb-5 Este consiste en poner en cada servicio asistencial como urgencias, cirugía, etc, a través de farmacias satélites o carros de reanimación un <em>Stock</em> (aprobado por el Comité de Farmacia y Terapéutica) de todos los medicamentos y dispositivos médicos con cantidades fijas; el cual quedará a cargo de la enfermera jefe de cada servicio (debe tener claro si el consumo es para la prestación del servicio o debe ser cargado al paciente) y deberá tener reposición cada 24 horas por parte del servicio farmacéutico.
               br
-              |Es responsabilidad del director técnico del servicio farmacéutico capacitar a los jefes de enfermería en el manejo y conservación de los productos, además de realizar auditorías periódicas al stock.
-              br
-              br
-              |<b>Ventajas:</b> Tanto las enfermeras como los médicos tienen disponibilidad inmediata de los medicamentos y dispositivos médicos y se disminuyen las devoluciones.
-
+              |Es responsabilidad del director técnico del servicio farmacéutico capacitar a los jefes de enfermería en el manejo y conservación de los productos, además de realizar auditorías periódicas al <em>Stock</em>.
               br
               br
-              |<b>Desventajas:</b>  Puede haber pérdidas y despilfarros de los productos por falta de control y mayor desgaste del personal farmacéutico.
+              |<b>Ventajas:</b> tanto las enfermeras como los médicos tienen disponibilidad inmediata de los medicamentos y dispositivos médicos y se disminuyen las devoluciones.
+              br
+              br
+              |<b>Desventajas:</b> puede haber pérdidas y despilfarros de los productos por falta de control y mayor desgaste del personal farmacéutico.
           .col-md-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema5/img-3.jpg' style="max-width: 610px")
@@ -90,14 +93,14 @@
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Combina los dos primeros (stock e individual).
+                p.mb-0 Combina los dos primeros (<em>Stock</em> e individual).
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Consiste en la distribución de los medicamentos y dispositivos médicos más usados por medio de un stock a través de las farmacias satélites o carro de reanimación y la otra parte se realiza por medio de la formulación individual.
+                p.mb-0 Consiste en la distribución de los medicamentos y dispositivos médicos más usados por medio de un <em>Stock</em> a través de las farmacias satélites o carro de reanimación y la otra parte se realiza por medio de la formulación individual.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Es normalmente usado por instituciones que no tienen capacidad para implementar el Sistema de Distribución de Medicamentos en Dosis Unitaria - SDMDU.
-            p.mb-0 Sus ventajas y desventajas no son diferentes a las mencionadas anteriormente para stock e individual.
+            p.mb-0 Sus ventajas y desventajas no son diferentes a las mencionadas anteriormente para <em>Stock</em> e individual.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema5/img-5.jpg' style="max-width: 610px")
@@ -119,7 +122,7 @@
                 p.mb-0.text-small No hay manipulación de los medicamentos por mucho tiempo por el personal de enfermería.
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0.text-small Minimiza los inventarios de los medicamentos en los stocks de los servicios asistenciales.
+                p.mb-0.text-small Minimiza los inventarios de los medicamentos en los <em>stocks</em> de los servicios asistenciales.
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0.text-small Permite el seguimiento y control del tratamiento farmacoterapéutico de los pacientes por parte del Químico Farmacéutico, evitando así interacciones entre medicamentos y posibles reacciones adversas.
@@ -129,7 +132,7 @@
                   br
                   |Permite mayor adaptabilidad a todos los procedimientos realizados por medios magnéticos.
             p.fw-bold Desventajas:
-            p.ps-4.text-small para la reestructuración requiere de una alta inversión financiera y un desgaste significativo por parte del personal del servicio farmacéutico y la organización de las formas dosificadas, ya que pocas veces se puede contar con zonas de reempaque y reenvase propias, lo que implica negociaciones con entidades externas.
+            p.ps-4.text-small Para la reestructuración requiere de una alta inversión financiera y un desgaste significativo por parte del personal del servicio farmacéutico y la organización de las formas dosificadas, ya que pocas veces se puede contar con zonas de reempaque y reenvase propias, lo que implica negociaciones con entidades externas.
 
           .col-md-5
             figure
@@ -169,11 +172,11 @@
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Estanterías o paneles: deben permitir el almacenamiento en orden alfabético de los medicamentos que ya fueron reempacados en unidosis.
+                p.mb-0 <b>Estanterías o paneles:</b> deben permitir el almacenamiento en orden alfabético de los medicamentos que ya fueron reempacados en unidosis.
               li.mb-3
                 .d-flex.align-items-start.mb-4
                   img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                  p.mb-0 Carros de unidosis:
+                  p.mb-0 <b>Carros de unidosis:</b>
                 ul.ps-4
                   li.d-flex.align-items-start.mb-3
                     img.me-2(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 13px; margin-top: 5px")
@@ -215,16 +218,16 @@
             ul
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0.text-small Historias clínicas.
+                p.mb-0 Historias clínicas.
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0.text-small Perfiles farmacoterapéuticos.
+                p.mb-0 Perfiles farmacoterapéuticos.
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0.text-small Actas de reuniones o comités institucionales.
+                p.mb-0 Actas de reuniones o comités institucionales.
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0.text-small Formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
+                p.mb-0 Formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema5/img-10.jpg' style="max-width: 610px")
@@ -345,7 +348,7 @@
       .py-4.py-md-5(titulo="Formato reempaque")
         .row.col-xl-10.mx-auto
           p.mb-4 El SDMDU debe contar con fuentes de información como historias clínicas, perfiles farmacoterapéuticos, actas de reuniones o comités institucionales, formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
-          img(src='@/assets/curso/temas/tema5/img-14.jpg')
+          img(src='@/assets/curso/temas/tema5/img-14.svg')
 
     h3(data-aos="fade-right") Reenvase de medicamentos
 
@@ -360,19 +363,52 @@
         .row
           .col-md-5(data-aos="fade-right")
             p.mb-4.fw-bold Prescripción médica
-            p El médico tratante determina el diagnóstico del paciente y posterior a ello realiza la prescripción médica manual (Usar papel calcante) o sistematizada con todos los datos legalmente requeridos y se la entrega a la enfermera jefe encargada el servicio.
+            p El médico tratante determina el diagnóstico del paciente y posterior a ello realiza la prescripción médica manual (usar papel calcante) o sistematizada con todos los datos legalmente requeridos y se la entrega a la enfermera jefe encargada el servicio.
           .col-md-7(data-aos="fade-left")
             figure
               img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-15.jpg' style="max-width: 660px")
         
         .row
           .col-md-5
-            p.mb-4.fw-bold Entrega de la prescripción 
+            p.mb-4.fw-bold Entrega de prescripción 
             p Posterior a la revisión, la enfermera procede a enviar vía electrónica o entregar la copia de la prescripción médica al Químico Farmacéutico encargado del servicio farmacéutico.
           .col-md-7
             figure
               img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-16.jpg' style="max-width: 660px")
         
+        .row
+          .col-md-5
+            p.mb-4.fw-bold Alistamiento de carros de unidosis 
+            ul
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Este procedimiento normalmente lo realiza el Regente de Farmacia y consiste en poner dentro de cada cajetín debidamente marcados con el nombre, piso y cama del paciente, los medicamentos inscritos en el perfil farmacoterapéutico correspondientes a cada paciente para 24 horas.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 Antes de ser entregados los carros a las enfermeras, debe realizarse una última inspección para corroborar que cada cajetín contenga los medicamentos prescritos para ese paciente.
+          .col-md-7
+            figure
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-18.jpg' style="max-width: 660px")
+
+        .row
+          .col-md-5
+            p.mb-4.fw-bold Intercambio de cajetines
+            ul
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 El intercambio de cajetines vacíos por parte de la enfermera y cajetines llenos por parte del servicio farmacéutico se realiza en unos horarios establecidos.
+                  br
+                  |Este procedimiento se realiza a la luz del perfil farmacoterapéutico y debe quedar firmado por quien entrega el carro como por quien lo recibe.
+              li.d-flex.align-items-start.mb-3
+                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
+                p.mb-0 También se reciben las devoluciones de medicamentos no administrados a los pacientes por parte de enfermería, para ello se debe tener un formato de devoluciones que justifique el porqué de la no administración de los medicamentos.
+                  br
+                  br
+                  |Antes de reubicar los medicamentos devueltos, deben ser revisados por el Químico Farmacéutico encargado del servicio y será quien determine si se reubican o se descartan bajo protocolos.
+          .col-md-7
+            figure
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-19.svg' style="max-width: 660px")
+
         .row
           .col-md-5
             p.mb-4.fw-bold Revisión y elaboración del perfil farmacoterapéutico
@@ -407,40 +443,7 @@
                     p.mb-0 Una vez este diligenciado el perfil, deberá ser revisado y validado por el Químico Farmacéutico que esté a cargo del servicio de distribución de medicamentos por dosis unitaria.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-17.jpg' style="max-width: 660px")
-        
-        .row
-          .col-md-5
-            p.mb-4.fw-bold Intercambio de cajetines
-            ul
-              li.d-flex.align-items-start.mb-3
-                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Este procedimiento normalmente lo realiza el Regente de Farmacia y consiste en poner dentro de cada cajetín debidamente marcados con el nombre, piso y cama del paciente, los medicamentos inscritos en el perfil farmacoterapéutico correspondientes a cada paciente para 24 horas.
-              li.d-flex.align-items-start.mb-3
-                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Antes de ser entregados los carros a las enfermeras, debe realizarse una última inspección para corroborar que cada cajetín contenga los medicamentos prescritos para ese paciente.
-          .col-md-7
-            figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-18.jpg' style="max-width: 660px")
-
-        .row
-          .col-md-5
-            p.mb-4.fw-bold Intercambio de cajetines
-            ul
-              li.d-flex.align-items-start.mb-3
-                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 El intercambio de cajetines vacíos por parte de la enfermera y cajetines llenos por parte del servicio farmacéutico se realiza en unos horarios establecidos.
-                  br
-                  |Este procedimiento se realiza a la luz del perfil farmacoterapéutico y debe quedar firmado por quien entrega el carro como por quien lo recibe.
-              li.d-flex.align-items-start.mb-3
-                img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 También se reciben las devoluciones de medicamentos no administrados a los pacientes por parte de enfermería, para ello se debe tener un formato de devoluciones que justifique el porqué de la no administración de los medicamentos.
-                  br
-                  br
-                  |Antes de reubicar los medicamentos devueltos, deben ser revisados por el Químico Farmacéutico encargado del servicio y será quien determine si se reubican o se descartan bajo protocolos.
-          .col-md-7
-            figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-19.jpg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-17.svg' style="max-width: 660px")
 
         .row
           .col-md-5
@@ -457,7 +460,7 @@
                 p.mb-0 Hay carros que permiten el transporte de los dispositivos médicos requeridos.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.jpg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.png' style="max-width: 660px")
 
     h3(data-aos="fade-right") Control del sistema de distribución de dosis unitaria
 

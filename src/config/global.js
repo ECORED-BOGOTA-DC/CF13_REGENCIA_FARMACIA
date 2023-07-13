@@ -366,12 +366,14 @@ export default {
         {
           nombre: 'Adriana Marcela Suarez Eljure',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
         },
         {
           nombre: 'Nombre',
