@@ -65,13 +65,10 @@
               img.mx-auto(src='@/assets/curso/temas/tema2/img-2.png' style="max-width: 660px")
         
         .row
-          .col-md-5
+          .col-md-12
             p.mb-5.fw-bold Agencias de especialidades farmacéuticas
             p Para estas se aplican las mismas disposiciones mencionadas a los depósitos de drogas, con excepción del reenvase de materias primas, pues no lo tienen autorizado.
-          .col-md-7
-            figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-3.png' style="max-width: 660px")
-        
+                
         .row
           .col-md-5
             p.mb-5.fw-bold Farmacias - droguerías

@@ -87,20 +87,16 @@
       .py-3.py-md-4(titulo="Granulados")
         .row
           .col-md-5.mx-auto.mb-4.mb-md-0
-            p Su principio activo y excipientes están pulcramente molidos brindando una forma homogénea.
-              br
-              br
-              |Su administración puede ser externa como los medicamentos dermatológicos o interna como los polvos de reconstitución.
+            p constituido por uno o más principios activos y azúcar en forma de aglomeración de polvo y con un tamaño irregular.
         
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-6.jpg' style="max-width: 575px")
       .py-3.py-md-4(titulo="Supositorios")
         .row
           .col-md-5.mx-auto.mb-4.mb-md-0
-            p Su principio activo y excipientes están pulcramente molidos brindando una forma homogénea.
-              br
-              br
-              |Su administración puede ser externa como los medicamentos dermatológicos o interna como los polvos de reconstitución.
+            p Su forma es cónica o de bala y su desintegración se da gracias al calor corporal dentro del recto. 
+            p Normalmente están elaborados a base de glicerina para facilitar su administración. Son de uso rectal.
+
         
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-7.jpg' style="max-width: 575px")
@@ -153,7 +149,7 @@
       .py-3.py-md-4(titulo="Ungüento")
         .row
           .col-md-5.mx-auto.mb-4.mb-md-0
-            p Son formadas por un alto porcentaje de grasa y poco de agua, lo que las hace emolientes y lubricantes.
+            p su preparación es a base de sustancias grasosas y prácticamente nula de agua.
         
           .col-md-6
             img(src='@/assets/curso/temas/tema6/img-14.jpg' style="max-width: 575px")
@@ -211,7 +207,7 @@
           img(src='@/assets/curso/temas/tema6/img-25.jpg' style="max-width: 295px")
           .col-md.ps-md-4
             h3.mb-4 Suspensión
-            p Son preparados líquidos en solución, suspensión o raramente emulsión, con principios activos disueltos en vehículos acuosos o aceitosos, su preparación es estéril durante su fabricación y su envase es para administración parenteral.
+            p están formadas por un sólido insoluble en un vehículo acuoso u oleoso y su apariencia es turbia. 
         .d-flex.flex-wrap(titulo="Emulsion")
           img(src='@/assets/curso/temas/tema6/img-26.jpg' style="max-width: 295px")
           .col-md.ps-md-4
@@ -289,17 +285,14 @@
         .d-flex.flex-wrap(titulo="Inhalatoria")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-35.jpg' style="max-width: 295px")
           .col-md.ps-md-4
-            p Las formas farmacéuticas que hacen parte de esta vía son las soluciones y suspensiones. Todos los medicamentos de esta vía buscan efectividad precisa en los oídos. Los efectos adversos de esta vía son mínimos.
-              br
-              br
-              |Para su administración el paciente debe estar en una posición sentado con la cabeza hacia el lado contrario de la aplicación y la oreja debe estar limpia y seca, la persona encargada de la administración del medicamento debe tener las manos limpias y el paciente debe esperar unos minutos antes de cambiar de posición para evitar pérdida del medicamento.
+            p Las formas farmacéuticas que hacen parte de esta vía son las gaseosas. Es una vía fácil de utilizar ya que los medicamentos vienen en presentaciones que ayudan a esto.
+            //- p Para su administración en el caso de los inhaladores se deben agitar antes de usar y son de uno personal; en el caso de utilizar nebulizadores o mascarillas se debe asegurar que estas estén bien puestas para evitar escapes de medicamento.
+
         .d-flex.flex-wrap(titulo="Rectal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-36.jpg' style="max-width: 295px")
           .col-md.ps-md-4 
-            p Las formas farmacéuticas que hacen parte de esta vía son las gaseosas. Es una vía fácil de utilizar ya que los medicamentos vienen en presentaciones que ayudan a esto.
-              br
-              br
-              |Para su administración en el caso de los inhaladores se deben agitar antes de usar y son de uno personal; en el caso de utilizar nebulizadores o mascarillas se debe asegurar que estas estén bien puestas para evitar escapes de medicamento.
+            p las formas farmacéuticas que hacen parte de esta vía son los supositorios y enemas rectales. Esta vía es de rápida absorción por la gran vascularización del recto.
+            p Para su administración la persona encargada de la administración debe tener las manos limpias. En el caso de los supositorios el paciente puede ponerse en cuclillas o acostarse de lado y para el enema debe seguir las instrucciones de uso. 
         .d-flex.flex-wrap(titulo="Vaginal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-37.jpg' style="max-width: 295px")
           .col-md.ps-md-4
