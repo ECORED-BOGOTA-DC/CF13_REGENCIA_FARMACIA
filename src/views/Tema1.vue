@@ -42,7 +42,7 @@
         
           .col-md-6(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema1/img-1.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema1/img-1.jpg' style="max-width: 610px" alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Especiales" :icono="require('@/assets/curso/temas/tema1/t-2.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -91,12 +91,12 @@
                 p.mb-0 Preparación de guías para la dación o aceptación de donaciones de medicamentos y dispositivos médicos.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-2.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema1/img-2.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right")
+          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
@@ -106,7 +106,7 @@
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
     
-    p.mb-0(data-aos="fade-right") Luego de la lectura de los capitulos y teniendo claros los temas, analice y reflexione sobre cuáles procesos aplican para cada uno de los establecimientos y servicios farmacéuticos.
+    p.mb-0(data-aos="fade-right") Luego de la lectura de los capítulos y teniendo claros los temas, analice y reflexione sobre cuáles procesos aplican para cada uno de los establecimientos y servicios farmacéuticos.
 </template>
 
 <script>

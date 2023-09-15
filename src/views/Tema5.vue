@@ -29,15 +29,15 @@
 
 
     .col-lg-10.col-xl-8.mx-auto.mb-5
-      img.d-none.d-md-flex(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-left")
-      img.d-flex.d-md-none(src="@/assets/curso/temas/tema5/img-2-1.svg" data-aos="fade-left")
+      img.d-none.d-md-flex(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-left" alt="Imagen decorativa")
+      img.d-flex.d-md-none(src="@/assets/curso/temas/tema5/img-2-1.svg" data-aos="fade-left" alt="Imagen decorativa")
 
     p.mb-5(data-aos="fade-right") En la siguiente imagen se ilustra el canal de distribución externo de productos farmacéuticos.
 
     .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
       p.mb-0.text-small.fw-bold Figura 3
       span.text-small Canal de distribución externa
-    img.col-lg-10.mx-auto(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left")
+    img.col-lg-10.mx-auto(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left" alt="muestra canal de distribución externa, donde: laboratorio fabricante vende a distribuidores mayoristas, minoristas y servicios farmacéuticos intrahospitalarios y estos lo distribuyen a farmacias que venden a los pacientes ")
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_5_2 5.2 Distribución interna
@@ -66,7 +66,7 @@
               |<b>Desventajas:</b> puede haber pérdidas y despilfarros de los productos por falta de control y mayor desgaste del personal farmacéutico.
           .col-md-5(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema5/img-3.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-3.jpg' style="max-width: 610px" alt="Imagen decorativa")
         
 
       .py-4.py-md-5(titulo="Prescripción individual")
@@ -85,7 +85,7 @@
                 |<b>Desventajas:</b> se dan por los problemas en las transcripciones que implican mayor tiempo laboral del personal de enfermería y la falta de evidencias en posibles errores de medicación, ya que los farmacéuticos no tienen como revisar las dosis de los medicamentos aplicados a los pacientes.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-4.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-4.jpg' style="max-width: 610px" alt="Imagen decorativa")
               
       .py-4.py-md-5(titulo="Combinado o mixto")
         .row.col-xl-10.mx-auto
@@ -103,7 +103,7 @@
             p.mb-0 Sus ventajas y desventajas no son diferentes a las mencionadas anteriormente para <em>Stock</em> e individual.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-5.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-5.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
       .py-4.py-md-5(titulo="Dosis unitarias")
         .row.col-xl-10.mx-auto
@@ -136,7 +136,7 @@
 
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-6.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-6.jpg' style="max-width: 610px" alt="Imagen decorativa")
     h3(data-aos="fade-right") Infraestructura
 
     p.mb-5(data-aos="fade-right") Para la implementación del SDMDU, el servicio farmacéutico debe cumplir con las siguientes características:
@@ -164,7 +164,7 @@
                 p.mb-0 Espacio para reempaque y reenvase de medicamentos.
           .col-md-5(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema5/img-7.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-7.jpg' style="max-width: 610px" alt="Imagen decorativa")
         
       .py-4.py-md-5(titulo="Materiales")
         .row.col-xl-10.mx-auto
@@ -192,7 +192,7 @@
                     p.mb-0 Se utiliza un cajetín por paciente y solo se entrega medicación para 24 horas, además de cada cajetín debe haber dos unidades, una que se llena y otra que permanece vacía en farmacia con el fin de poder realizar el intercambio vacío/lleno en cada entrega.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-8.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-8.jpg' style="max-width: 610px" alt="Imagen decorativa")
               
       .py-4.py-md-5(titulo="Recurso humano")
         .row.col-xl-10.mx-auto
@@ -209,7 +209,7 @@
                 p.mb-0 Es indispensable que el recurso humano sea profesional en farmacia como regentes y químicos farmacéuticos, que estén capacitados en distribución por dosis unitaria, estén entrenados en farmacoterapia y conocedores de la composición química, fotosensibilidad, termolabilidad, sensibilidad a la humedad (higroscópico), entre otras de los medicamentos.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-9.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-9.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
       .py-4.py-md-5(titulo="Información")
         .row.col-xl-10.mx-auto
@@ -230,7 +230,7 @@
                 p.mb-0 Formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-10.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-10.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
     h3(data-aos="fade-right") Reempaque de medicamentos
 
@@ -266,7 +266,7 @@
                 p.mb-0 Cuando la presentación del medicamento sea por ejemplo frasco 100 tabletas, estas se empacaron en el momento que sean solicitadas.
           .col-md-5(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema5/img-11.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-11.jpg' style="max-width: 610px" alt="Imagen decorativa")
         
       .py-4.py-md-5(titulo="Empaque y rótulo")
         .row.col-xl-10.mx-auto
@@ -304,7 +304,7 @@
               
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-12.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-12.jpg' style="max-width: 610px" alt="Imagen decorativa")
               
       .py-4.py-md-5(titulo="Protocolo reempaque")
         .row.col-xl-10.mx-auto
@@ -343,12 +343,12 @@
                 p.mb-0 Llenar el registro de la producción realizada. Este registro o control de empaque contendrá la siguiente información: supervisión por parte del químico farmacéutico del lote reempacado, ubicación de las unidades reempacadas en el estante y fila correspondiente y entrega de las unidades empacadas al servicio de hospitalización.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-13.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema5/img-13.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
       .py-4.py-md-5(titulo="Formato reempaque")
         .row.col-xl-10.mx-auto
           p.mb-4 El SDMDU debe contar con fuentes de información como historias clínicas, perfiles farmacoterapéuticos, actas de reuniones o comités institucionales, formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
-          img(src='@/assets/curso/temas/tema5/img-14.svg')
+          img(src='@/assets/curso/temas/tema5/img-14.svg' alt="Muestra formato de empaque en tabla de excel donde describe las siguientes columnas: Empaque No. Fecha – dd/mm/aa Hora Nombre comercial medicamento Nombre genérico Lote del medicamento Fecha de vencimiento Cantidad de unidades a reempacar Unidades por reempaque Cantidad D.D. reempacada Firma persona que hace el empaque Firma del supervisor")
 
     h3(data-aos="fade-right") Reenvase de medicamentos
 
@@ -366,7 +366,7 @@
             p El médico tratante determina el diagnóstico del paciente y posterior a ello realiza la prescripción médica manual (usar papel calcante) o sistematizada con todos los datos legalmente requeridos y se la entrega a la enfermera jefe encargada el servicio.
           .col-md-7(data-aos="fade-left")
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-15.jpg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-15.jpg' style="max-width: 660px" alt="Imagen decorativa")
         
         .row
           .col-md-5
@@ -374,7 +374,7 @@
             p Posterior a la revisión, la enfermera procede a enviar vía electrónica o entregar la copia de la prescripción médica al Químico Farmacéutico encargado del servicio farmacéutico.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-16.jpg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-16.jpg' style="max-width: 660px" alt="Imagen decorativa")
         
         .row
           .col-md-5
@@ -388,7 +388,7 @@
                 p.mb-0 Antes de ser entregados los carros a las enfermeras, debe realizarse una última inspección para corroborar que cada cajetín contenga los medicamentos prescritos para ese paciente.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-18.jpg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-18.jpg' style="max-width: 660px" alt="Imagen decorativa")
 
         .row
           .col-md-5
@@ -407,7 +407,7 @@
                   |Antes de reubicar los medicamentos devueltos, deben ser revisados por el Químico Farmacéutico encargado del servicio y será quien determine si se reubican o se descartan bajo protocolos.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-19.svg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-19.svg' style="max-width: 660px" alt="Imagen decorativa")
 
         .row
           .col-md-5
@@ -443,7 +443,7 @@
                     p.mb-0 Una vez este diligenciado el perfil, deberá ser revisado y validado por el Químico Farmacéutico que esté a cargo del servicio de distribución de medicamentos por dosis unitaria.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-17.svg' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-17.svg' style="max-width: 660px" alt="Imagen decorativa")
 
         .row
           .col-md-5
@@ -460,14 +460,14 @@
                 p.mb-0 Hay carros que permiten el transporte de los dispositivos médicos requeridos.
           .col-md-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.png' style="max-width: 660px")
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.png' style="max-width: 660px" alt="Imagen decorativa")
 
     h3(data-aos="fade-right") Control del sistema de distribución de dosis unitaria
 
     p.mb-5(data-aos="fade-right") El control del SDMDU se realiza a través de los indicadores de gestión de la calidad para este proceso. La fórmula que se aplica es:
 
     .col-xl-9.tarjeta.offset-2.p-4(style="background-color: #E5DFFA")
-      img.mx-auto(src='@/assets/curso/temas/tema5/img-21.svg' style="max-width: 690px" data-aos="fade-left")
+      img.mx-auto(src='@/assets/curso/temas/tema5/img-21.svg' style="max-width: 690px" data-aos="fade-left" alt="Imagen decorativa")
 </template>
 
 <script>

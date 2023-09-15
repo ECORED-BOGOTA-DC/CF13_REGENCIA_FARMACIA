@@ -8,7 +8,7 @@
       h1 Proceso de dispensación
 
     .col-xl-7.offset-2.d-flex.flex-wrap
-      img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/img-1.svg' style="max-width: 130px;" data-aos="fade-right")
+      img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/img-1.svg' style="max-width: 130px;" data-aos="fade-right" alt="Imagen decorativa")
       p.col-md.ps-md-4(data-aos="fade-left") El proceso general de recepción de medicamentos y dispositivos médicos a nivel normativo, está reglamentado por la resolución 1403 del 2007 en el capítulo II - PROCEDIMIENTOS PARA LOS PROCESOS GENERALES – numeral 5 y es definido como la entrega de uno o más medicamentos a un paciente y la información sobre su uso adecuado.
     Separador
 
@@ -31,7 +31,7 @@
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right")
+          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
@@ -62,7 +62,7 @@
             p En la imagen se muestran sus áreas.
           .col-md-7(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-2.png' style="max-width: 660px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-2.png' style="max-width: 660px" alt="Muestra depósitos de drogas: Administrativa delimitada. De recepción. Cuarentena. Almacenamiento de acuerdo a los productos. Almacenamiento de medicamentos de control especial. Almacenamiento de materias primas y que requieran cadena de frío. Almacenamiento para destrucción o desnaturalización. Almacenamiento rechazado, devueltos y retirados del mercado. De alistamiento y despacho. Reenvase de materias primas en caso de realizarlo Manejo y disposición de residuos reglamentación vigente.")
         
         .row
           .col-md-12
@@ -88,7 +88,7 @@
                 p.mb-0 El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px" alt="Muestra áreas de farmacia droguerías: Bodega. Aseo. Servicios sanitarios. Preparados magistrales. Medicamentos de control especial. Almacenamiento. Dispensación. Sustancias inflamables. Cuarentena. Inyectología. Cadena de frío. Recepción. Administrativa")
         
         .row
           .col-md-5
@@ -96,7 +96,7 @@
             p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px" alt="Muestra áreas de farmacia droguerías: Bodega. Aseo. Servicios sanitarios. Preparados magistrales. Medicamentos de control especial. Almacenamiento. Dispensación. Sustancias inflamables. Cuarentena. Inyectología. Cadena de frío. Recepción. Administrativa")
 
         .row
           .col-md-5
@@ -104,7 +104,7 @@
             p Este servicio debe contar las áreas mostradas en la imagen.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.png' style="max-width: 660px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.png' style="max-width: 660px" alt="Muestra listado de servicios farmacéuticos hospitalarios de baja complejidad: Administrativa delimitada. De recepción. Cuarentena. Almacenamiento de acuerdo a los productos. Almacenamiento de medicamentos de control especial. Dispensación. Almacenamiento para destrucción o desnaturalización. Almacenamiento rechazado, devueltos y retirados del mercado. Manejo y disposición de residuos reglamentación vigente.")
 
         .row
           .col-md-5
@@ -112,14 +112,14 @@
             p Además de las áreas mencionadas para el servicio farmacéutico hospitalario de baja complejidad, el servicio farmacéutico hospitalario de mediana y alta complejidad, debe tener las siguientes áreas adicionales:
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-6.png' style="max-width: 660px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-6.png' style="max-width: 660px" alt="Servicios farmacéuticos hospitalarios de mediana y alta complejidad")
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_3 2.3 Talento humano
     
     .d-flex.flex-wrap.col-lg-10.mx-auto.mb-5
-      img.col-lg-8(src='@/assets/curso/temas/tema2/img-7.jpg' style="max-width: 714px")
+      img.col-lg-8(src='@/assets/curso/temas/tema2/img-7.jpg' style="max-width: 714px" alt="Imagen Decorativa")
       .col-lg-4.d-flex.align-items-center
         .conatiner-offset-2.p-3(data-aos="fade-left")
           p.mb-3.w-100(data-aos="fade-left") A nivel formativo, todo establecimiento o servicio farmacéutico debe contar con el recurso humano idóneo, con los conocimientos, habilidades y competencias propias para la realización de las actividades o procesos que se realicen.
@@ -169,7 +169,7 @@
       .col-lg-10.mx-auto.mb-5
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           p.mb-0.text-small.fw-bold Figura 1
-          span.text-small Buenas prácticas del paciente para el USO RACIONAL DE MEDICAMENTOS
+          span.text-small Buenas prácticas del paciente para el uso racional de medicamentos
         p.text-center(data-aos="fade-right") En <span style="font-weight: bold; color: #00BCD4">2010</span>, la OMS calculó que <span style="font-weight: bold; color: #00BCD4">más de la mitad de los medicamentos</span> se prescriben, dispensan o venden de forma inapropiada, y que la mitad de los pacientes <span style="font-weight: bold; color: #00BCD4">no los toman correctamente.</span>
       .col-lg-4.col-xl-3
         .d-flex.align-items-center.mb-4
@@ -197,7 +197,7 @@
             img(src="@/assets/curso/temas/tema2/decorador-1.svg")
             span 5
           p.mb-0.ps-3(data-aos="fade-right") NO recomiende a otros consumir medicamentos que haya utilizado.
-      img.col-lg-4.d-none.d-lg-flex.px-lg-4(src="@/assets/curso/temas/tema2/img-8.svg")
+      img.col-lg-4.d-none.d-lg-flex.px-lg-4(src="@/assets/curso/temas/tema2/img-8.svg" alt="Muestra imagen de un medicamente y en la parte inferior describe 10 Buenas prácticas del paciente para el uso racional de los medicamentos")
       .col-lg-4.col-xl-3
         .d-flex.align-items-center.mb-4
           .container-pill
@@ -267,7 +267,7 @@
         
           .col-md-6(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema2/img-9.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema2/img-9.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
       .py-4.py-md-5(titulo="Prescripción común")
         .row
@@ -281,7 +281,7 @@
                 p.mb-0 Son elaboradas a mano o digital y tienen un mes de caducidad para ser validadas en el servicio farmacéutico.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-10.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema2/img-10.jpg' style="max-width: 610px" alt="Imagen decorativa")
               
       .py-4.py-md-5(titulo="Prescripción especial")
         .row
@@ -301,7 +301,7 @@
                 p.mb-0 Solo tienen validez por 15 días hábiles a partir de su elaboración.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-10.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema2/img-10.jpg' style="max-width: 610px" alt="Imagen decorativa")
 
       .py-4.py-md-5(titulo="Interpretación")
         .row
@@ -319,14 +319,14 @@
                 p.mb-0 Solo puede dispensar prescripciones médicas escritas, por ningún motivo debe aceptar recetas orales, puesto que debe existir un documento de respaldo, excepto para productos OTC.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-12.jpg' style="max-width: 610px")
+              img(src='@/assets/curso/temas/tema2/img-12.jpg' style="max-width: 610px" alt="Imagen decorativa")
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_6 2.6 Alistamiento de productos farmacéuticos
 
     .col-lg-10.mx-auto.tarjeta.p-4.d-flex.flex-wrap.align-items-center.mb-5(style="background-color: #F1FBFC")
-      img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img-13.svg' style="max-width: 210px" data-aos="fade-right")
+      img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img-13.svg' style="max-width: 210px" data-aos="fade-right" alt="Imagen decorativa")
       p.col-lg.ps-lg-4(data-aos="fade-left") Posterior a la recepción de la prescripción, se procede al alistamiento (separación) de los productos farmacéuticos en las cantidades completas recetadas.
         br
         br
@@ -354,8 +354,8 @@
           p.mb-3.w-100(data-aos="fade-left") Los productos antes de ser empacados, deben ser enseñados al usuario, confirmado nombre del producto y cantidad entregada, advirtiendo que antes de retirarse del establecimiento debe estar seguro de lo que se le dispensó, porque después de salir de allí no se aceptan devoluciones. En caso de ser a domicilio, el usuario debe realizar la revisión de lo recibido antes que el domiciliario se retire.
             br
             br
-            |Por último, se procede al registro o facturación de los productos entregados o vendidos en las fuentes implementadas para ello ya sea software, Excel o manual.
-      img.col-lg-6(src='@/assets/curso/temas/tema2/img-14.jpg' style="max-width: 714px")
+            |Por último, se procede al registro o facturación de los productos entregados o vendidos en las fuentes implementadas para ello ya sea <em>software</em>, Excel o manual.
+      img.col-lg-6(src='@/assets/curso/temas/tema2/img-14.jpg' style="max-width: 714px" alt="Imagen decorativa")
 
     Separador
 

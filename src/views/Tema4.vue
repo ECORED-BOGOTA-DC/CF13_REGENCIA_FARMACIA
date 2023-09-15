@@ -8,7 +8,7 @@
       h1 Estilos de vida saludables
     
     .offset-xl-1.col-xl-9.d-flex.flex-wrap.mb-5
-      img.col-lg-7.m-auto(src="@/assets/curso/temas/tema4/img-1.jpg" style="max-width: 524px")
+      img.col-lg-7.m-auto(src="@/assets/curso/temas/tema4/img-1.jpg" style="max-width: 524px" alt="Imagen decorativa")
       p.col.lg-5.p-4.mb-0.text-white(style="background-color: #7E5EE3" data-aos="fade-left") Son una serie de hábitos que dan como resultado a lo que la Organización Mundial de la Salud (OMS) define como: <b>“estado completo de bienestar físico, mental y social”</b>.
         br
         br
@@ -22,7 +22,7 @@
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           p.fw-bold.mb-0.text-small Figura 2
           span.text-small Hábitos de vida saludable
-        img(src="@/assets/curso/temas/tema4/img-2.svg")
+        img(src="@/assets/curso/temas/tema4/img-2.svg" alt="Muestra imagen con 10 hábitos de vida saludable que se describen parte inferior.")
 </template>
 
 <script>

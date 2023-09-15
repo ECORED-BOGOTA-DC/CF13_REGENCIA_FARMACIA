@@ -22,7 +22,7 @@
     p.mb-5(data-aos="fade-right") A continuación, se abordarán diferentes temas relacionados con ambos procesos que permitirán al lector ahondar en las particularidades de cada uno de ellos y comprender que tanto la dispensación como la distribución son actos profesionales propios de los farmacéuticos y son el origen del uso racional de los medicamentos. También se abordarán algunos puntos importantes de la administración de medicamentos que van unidos a toda la información anteriormente estudiada.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oI5R6D2EPnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.text-center.fw-bold ¡Muchos éxitos en este proceso de aprendizaje!
 </template>
 
