@@ -156,7 +156,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/331502_CF13_DU.pdf',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
