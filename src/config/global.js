@@ -35,7 +35,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'nstalaciones locativas',
+            titulo: 'Instalaciones locativas',
             hash: 't_2_1',
           },
           {
@@ -349,7 +349,7 @@ export default {
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisora Metodológica y Pedagógica',
+          cargo: 'Revisora metodológica y pedagógica',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
         },
@@ -372,7 +372,7 @@ export default {
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
@@ -389,7 +389,7 @@ export default {
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
@@ -424,7 +424,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

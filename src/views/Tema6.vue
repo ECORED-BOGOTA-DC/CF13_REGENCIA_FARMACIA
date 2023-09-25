@@ -2,21 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Administración de medicamentos
-    
     p.mb-0(data-aos="fade-right") En la administración de medicamentos entran dos puntos importantes que son: la forma farmacéutica del medicamento y la vía de administración de este medicamentos, las cuales estudiaremos a continuación.
-    Separador 
+    Separador
     .titulo-segundo.color-acento-contenido
       h2#t_6_1 6.1 Formas farmacéuticas
-    
     p.mb-4(data-aos="fade-right") Se entiende por forma farmacéutica a la unión del principio activo + excipientes + vehículo que da como resultado la forma final del medicamento.
       br
       br
       |Los objetivos de estas formas son:
-    
     .d-flex.flex-wrap.mb-4
       .col-12.col-lg-7.tarjeta.my-auto.p-4.order-2.order-lg-1(style="background-color: #F7F6FE")
         ul
@@ -41,7 +38,7 @@
           li.d-flex.align-items-start.mb-4
             img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
             p.mb-0(data-aos="fade-left") Favorecer la absorción  del medicamento.
-      img.col-lg-5.ps-lg-4.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 508px" data-aos="fade-left" alt="Imagen decorativa")
+      img.col-lg-5.ps-lg-4.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 408px" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mb-4 Las formas farmacéuticas se clasifican en:
     h4.mb-4 Sólidas
@@ -49,113 +46,93 @@
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Tabletas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0(data-aos="fade-right")
+          .col-lg-5.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
             p Son compactas, normalmente son redondas o alargadas y no siempre tiene camuflaje de sabor y olor.
               br
-              br
               |Se clasifican en <em>tabletas orales</em> su desintegración se hace en el estómago para iniciar la absorción del principio activo, <em>tabletas masticables</em> su desintegración se hace en la boca y <em>tabletas vaginales</em> donde su desintegración es dentro de la vagina.
-        
-          .col-md-6(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema6/img-2.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6(data-aos="fade-left")
+            img(src='@/assets/curso/temas/tema6/img-2.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Cápsulas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p En estas el principio activo y los excipientes se encuentran cubiertos por una capa de gelatina con el propósito de camuflar y evitar olores y sabores desagradables. Además de ayudar a la tolerancia gástrica.
               br
-              br
               |Se clasifican en: <em>cápsulas de gelatina dura</em> donde su principio activo en polvo se encuentra dentro de la cubierta que por lo general es de dos colores y en cápsulas de <em>gelatina blanda</em> o <em>perlas</em> en las que el principio activo es líquido.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-3.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-3.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Grageas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Su forma es biconvexa, por lo general son de colores vistosos, y al igual que las cápsulas su objetivo es camuflar olores y sabores desagradables.
         
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-4.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-4.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Polvos")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Su principio activo y excipientes están pulcramente molidos brindando una forma homogénea.
               br
-              br
               |Su administración puede ser externa como los medicamentos dermatológicos o interna como los polvos de reconstitución.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-5.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-5.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Granulados")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p constituido por uno o más principios activos y azúcar en forma de aglomeración de polvo y con un tamaño irregular.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-6.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-6.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Supositorios")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Su forma es cónica o de bala y su desintegración se da gracias al calor corporal dentro del recto. 
             p Normalmente están elaborados a base de glicerina para facilitar su administración. Son de uso rectal.
-
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-7.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-7.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Óvulos")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Son de forma ovoide y al igual que los supositorios están elaborados a base de glicerina o manteca de cacao. Son de uso vaginal.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-8.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-8.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Liberación especial retardada")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Su forma es en tableta o gragea, pero su liberación es lenta dentro del organismo, son elaborados con el fin de sostener una concentración eficaz y constante de 8 a 12 horas en sangre y tejidos y también así disminuir las dosis al día del paciente.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-9.jpg' style="max-width: 575px" alt="Imagen decorativa")
-
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-9.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
     h4.mb-4(data-aos="fade-right") Semisólidas
-
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Cremas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0(data-aos="fade-right")
+          .col-lg-5.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
             p Son de uso tópico, contienen entre el 60 y el 80% de agua formado un líquido espeso y homogéneo.
-        
-          .col-md-6(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema6/img-10.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6(data-aos="fade-left")
+            img(src='@/assets/curso/temas/tema6/img-10.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Pastas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Son preparaciones de uso tópico en las que su mayor contenido son polvos que no se disuelven y al aplicarlas quedan rígidas.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-11.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-11.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Geles o jaleas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Son una preparación con una base permanente sólida y una dispersa líquida.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-12.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-12.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Pomadas")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Son formadas por un alto porcentaje de grasa y poco de agua, lo que las hace emolientes y lubricantes.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-13.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-13.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Ungüento")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p su preparación es a base de sustancias grasosas y prácticamente nula de agua.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-14.jpg' style="max-width: 575px" alt="Imagen decorativa")
-
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-14.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
     h4.mb-4(data-aos="fade-right") Líquidas
-
     .tarjeta.p-4.mb-5(style="background-color: #FAFAFA")
       LineaTiempoC.color-secundario(text-small)
         .d-flex.flex-wrap(titulo="Elixir")
@@ -213,38 +190,30 @@
           .col-md.ps-md-4
             h3.mb-4 Emulsion
             p Sus principios activos se encuentran disueltos en dos vehículos uno acuoso y el otro aceitoso por lo cual su aspecto es lechoso.
-
     h4.mb-4(data-aos="fade-right") Gaseosas
-
-    TabsC.color-primario.mb-5
+    TabsC.color-primario
       .py-3.py-md-4(titulo="Inhaladores o aerosoles")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0(data-aos="fade-right")
+          .col-lg-5.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
             p(data-aos="fade-left") Son medicamentos envasados de tal forma que al paciente usarlos salen en forma gaseosa y sean tomados por medio inhalatorio.
-        
-          .col-md-6(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema6/img-27.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6(data-aos="fade-left")
+            img(src='@/assets/curso/temas/tema6/img-27.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Gases medicinales")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Son una mezcla de componentes gaseosos que entran en contacto directo con el paciente al ser utilizados.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-28.jpg' style="max-width: 575px" alt="Imagen decorativa")
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-28.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Nebulizadores")
         .row
-          .col-md-5.mx-auto.mb-4.mb-md-0
+          .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Son medicamentos líquidos que al usarse con un dispositivo médico llamado nebulizador se convierte en un gas permitiendo que el medicamento llegue más profundamente a las vías aéreas del paciente.
-        
-          .col-md-6
-            img(src='@/assets/curso/temas/tema6/img-29.jpg' style="max-width: 575px" alt="Imagen decorativa")   
+          .col-lg-6
+            img(src='@/assets/curso/temas/tema6/img-29.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
     Separador
-
     .titulo-segundo.color-acento-contenido
       h2#t_6_2 6.2	Vías de administración de medicamentos
-    
     p.mb-5(data-aos="fade-right") Es la forma como el medicamento ingresa al organismo, por lo cual existen diferentes vías para cada una de las formas farmacéuticas estudiadas anteriormente, las cuales se describen a continuación:
-
     .tarjeta.p-4.mb-5(style="background-color: #FAFAFA")
       LineaTiempoC.color-secundario(text-small)
         .d-flex.flex-wrap(titulo="Oral")

@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Manual de procesos y procedimientos
-
     .bloque-texto-g.col-lg-9.p-3.p-sm-4.p-md-5.mb-5.offset-lg-1(style="background-color: #8CBCFA")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-1.jpg')})`}"

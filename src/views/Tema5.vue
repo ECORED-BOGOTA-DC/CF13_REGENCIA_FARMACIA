@@ -2,16 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Proceso de distribución de medicamentos y dispositivos médicos
-    
     p(data-aos="fade-right") En general, es la entrega de los medicamentos y dispositivos médicos a los pacientes y/o usuarios de los establecimientos o servicios farmacéuticos.
       br
       |El proceso debe ser seguro, eficaz, rápido y controlado y se divide en distribución externa y distribución interna. A continuación, conoceremos cada uno de ellos.
-    Separador 
-
+    Separador
     .titulo-segundo.color-acento-contenido
       h2#t_5_1 5.1 Distribución externa
     p.mb-5(data-aos="fade-right") Esta distribución tiene dos instancias:
@@ -54,8 +52,8 @@
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="<em>Stock</em>")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
-            p.mb-5 Este consiste en poner en cada servicio asistencial como urgencias, cirugía, etc, a través de farmacias satélites o carros de reanimación un <em>Stock</em> (aprobado por el Comité de Farmacia y Terapéutica) de todos los medicamentos y dispositivos médicos con cantidades fijas; el cual quedará a cargo de la enfermera jefe de cada servicio (debe tener claro si el consumo es para la prestación del servicio o debe ser cargado al paciente) y deberá tener reposición cada 24 horas por parte del servicio farmacéutico.
+          .col-lg-6.mb-4.mb-lg-0.me-auto(data-aos="fade-right")
+            p Este consiste en poner en cada servicio asistencial como urgencias, cirugía, etc, a través de farmacias satélites o carros de reanimación un <em>Stock</em> (aprobado por el Comité de Farmacia y Terapéutica) de todos los medicamentos y dispositivos médicos con cantidades fijas; el cual quedará a cargo de la enfermera jefe de cada servicio (debe tener claro si el consumo es para la prestación del servicio o debe ser cargado al paciente) y deberá tener reposición cada 24 horas por parte del servicio farmacéutico.
               br
               |Es responsabilidad del director técnico del servicio farmacéutico capacitar a los jefes de enfermería en el manejo y conservación de los productos, además de realizar auditorías periódicas al <em>Stock</em>.
               br
@@ -64,14 +62,12 @@
               br
               br
               |<b>Desventajas:</b> puede haber pérdidas y despilfarros de los productos por falta de control y mayor desgaste del personal farmacéutico.
-          .col-md-5(data-aos="fade-left")
+          .col-lg-5(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema5/img-3.jpg' style="max-width: 610px" alt="Imagen decorativa")
-        
-
+              img(src='@/assets/curso/temas/tema5/img-3.jpg' style="max-width: 410px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Prescripción individual")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-lg-6.mb-4.mb-lg-0.me-auto
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -83,13 +79,12 @@
                 br
                 br
                 |<b>Desventajas:</b> se dan por los problemas en las transcripciones que implican mayor tiempo laboral del personal de enfermería y la falta de evidencias en posibles errores de medicación, ya que los farmacéuticos no tienen como revisar las dosis de los medicamentos aplicados a los pacientes.
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-4.jpg' style="max-width: 610px" alt="Imagen decorativa")
-              
+              img(src='@/assets/curso/temas/tema5/img-4.jpg' style="max-width: 410px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Combinado o mixto")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-lg-6.mb-4.mb-lg-0.me-auto
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -101,13 +96,12 @@
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Es normalmente usado por instituciones que no tienen capacidad para implementar el Sistema de Distribución de Medicamentos en Dosis Unitaria - SDMDU.
             p.mb-0 Sus ventajas y desventajas no son diferentes a las mencionadas anteriormente para <em>Stock</em> e individual.
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-5.jpg' style="max-width: 610px" alt="Imagen decorativa")
-
+              img(src='@/assets/curso/temas/tema5/img-5.jpg' style="max-width: 410px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Dosis unitarias")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-lg-6.mb-4.mb-lg-0.me-auto
             ul
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -134,18 +128,16 @@
             p.fw-bold Desventajas:
             p.ps-4.text-small Para la reestructuración requiere de una alta inversión financiera y un desgaste significativo por parte del personal del servicio farmacéutico y la organización de las formas dosificadas, ya que pocas veces se puede contar con zonas de reempaque y reenvase propias, lo que implica negociaciones con entidades externas.
 
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-6.jpg' style="max-width: 610px" alt="Imagen decorativa")
+              img(src='@/assets/curso/temas/tema5/img-6.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
     h3(data-aos="fade-right") Infraestructura
-
     p.mb-5(data-aos="fade-right") Para la implementación del SDMDU, el servicio farmacéutico debe cumplir con las siguientes características:
-
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="<em>Área</em>")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
-            p.mb-5 Debe contar con un área que permita realizar los procesos generales y especiales que le apliquen según la normatividad legal vigente y cada una de las actividades propias del sistema como:
+          .col-lg-6.mb-4.mb-lg-0.me-auto(data-aos="fade-right")
+            p Debe contar con un área que permita realizar los procesos generales y especiales que le apliquen según la normatividad legal vigente y cada una de las actividades propias del sistema como:
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -162,13 +154,12 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Espacio para reempaque y reenvase de medicamentos.
-          .col-md-5(data-aos="fade-left")
+          .col-lg-5(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema5/img-7.jpg' style="max-width: 610px" alt="Imagen decorativa")
-        
+              img(src='@/assets/curso/temas/tema5/img-7.jpg' style="max-width: 410px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Materiales")
         .row.col-xl-10.mx-auto
-          .col-md-7.mb-4.mb-md-0.pe-md-4
+          .col-lg-7.mb-4.mb-lg-0.pe-md-4
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -190,13 +181,12 @@
                   li.d-flex.align-items-start.mb-3
                     img.me-2(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 13px; margin-top: 5px")
                     p.mb-0 Se utiliza un cajetín por paciente y solo se entrega medicación para 24 horas, además de cada cajetín debe haber dos unidades, una que se llena y otra que permanece vacía en farmacia con el fin de poder realizar el intercambio vacío/lleno en cada entrega.
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-8.jpg' style="max-width: 610px" alt="Imagen decorativa")
-              
+              img(src='@/assets/curso/temas/tema5/img-8.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Recurso humano")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-lg-6.mb-4.mb-lg-0.me-auto
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -207,13 +197,12 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Es indispensable que el recurso humano sea profesional en farmacia como regentes y químicos farmacéuticos, que estén capacitados en distribución por dosis unitaria, estén entrenados en farmacoterapia y conocedores de la composición química, fotosensibilidad, termolabilidad, sensibilidad a la humedad (higroscópico), entre otras de los medicamentos.
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-9.jpg' style="max-width: 610px" alt="Imagen decorativa")
-
+              img(src='@/assets/curso/temas/tema5/img-9.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Información")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto
+          .col-lg-6.mb-4.mb-lg-0.me-auto
             p.mb-4 El SDMDU debe contar con fuentes de información como:
             ul
               li.d-flex.align-items-start.mb-2
@@ -228,16 +217,13 @@
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-10.jpg' style="max-width: 610px" alt="Imagen decorativa")
-
+              img(src='@/assets/curso/temas/tema5/img-10.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
     h3(data-aos="fade-right") Reempaque de medicamentos
-
     p.mb-5(data-aos="fade-right") En Colombia, la mayor parte de medicamentos vienen en presentaciones multidosis, que se ajustan perfectamente a las necesidades de pacientes ambulatorios, pero no se acoplan muy bien a la distribución intrahospitalaria, por lo cual es necesario reempacarlos en dosis únicas que facilitan su distribución a cada unidad de servicio.
       br
       |El ajuste de los medicamentos en presentación unidosis proporciona muchas ventajas sobre los otros sistemas, entre esas están: 
-
     ul.mb-5.col-lg-10.mx-auto
       li.d-flex.align-items-start.mb-3
         img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
@@ -252,11 +238,10 @@
       br
       br
       |A continuación analizaremos la información relacionada con el proceso de reempaque:
-    
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="Multidosis a unidosis")
         .row.col-xl-10.mx-auto
-          .col-md-6.mb-4.mb-md-0.me-auto(data-aos="fade-right")
+          .col-lg-6.mb-4.mb-lg-0.me-auto(data-aos="fade-right")
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -264,15 +249,13 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Cuando la presentación del medicamento sea por ejemplo frasco 100 tabletas, estas se empacaron en el momento que sean solicitadas.
-          .col-md-5(data-aos="fade-left")
+          .col-lg-5(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema5/img-11.jpg' style="max-width: 610px" alt="Imagen decorativa")
-        
+              img(src='@/assets/curso/temas/tema5/img-11.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Empaque y rótulo")
         .row.col-xl-10.mx-auto
-          .col-md-7.mb-4.mb-md-0.pe-md-4
-            p.mb-4 El empaque debe ser en material de bolsa transparente, igual en tamaño y selladas.
-              br
+          .col-lg-7.mb-4.mb-lg-0.pe-md-4
+            p El empaque debe ser en material de bolsa transparente, igual en tamaño y selladas.
               br
               |En cuanto al título este debe llevar la siguiente información determinada por la resolución 1403 del 2007:
             ul
@@ -299,24 +282,18 @@
                 p.mb-0 Registro sanitario.
             p.mb-o En los envases o empaques pequeños la información se incluirá en una separata.
               br
-              br
               |A la información anteriormente mencionada se le debe agregar el número de lote otorgado durante el reempaque y el nombre del responsable del reempaque.
-              
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-12.jpg' style="max-width: 610px" alt="Imagen decorativa")
-              
+              img(src='@/assets/curso/temas/tema5/img-12.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Protocolo reempaque")
         .row.col-xl-10.mx-auto
-          .col-md-7.mb-4.mb-md-0.me-auto.pe-lg-4
-            p.mb-4 1. Lavado de manos bajo protocolo y utilización de elementos de protección personal como bata, gorro, guantes quirúrgicos y tapabocas.
-              br
+          .col-lg-7.mb-4.mb-lg-0.me-auto.pe-lg-4
+            p 1. Lavado de manos bajo protocolo y utilización de elementos de protección personal como bata, gorro, guantes quirúrgicos y tapabocas.
               br
               |2. Solo se reemplaza un medicamento a la vez y por ende solo se tendrán los rótulos correspondientes a ese medicamento. No debe haber ningún otro producto sobre el mesón, ya que en todo momento se debe evitar contaminar el medicamento. Además se debe realizar manejo adecuado y control de desechos bajo protocolo.
               br
-              br
               |3. Se realizará verificación del proceso mediante auditorías internas y externas acorde a listas de verificación teniendo presente la normatividad legal vigente.
-              br
               br
               |4. El personal calificado y entrenado responsable del empaque, debe cumplir con unos requisitos que son:
             ul
@@ -341,43 +318,35 @@
               li.d-flex.align-items-start.mb-2
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Llenar el registro de la producción realizada. Este registro o control de empaque contendrá la siguiente información: supervisión por parte del químico farmacéutico del lote reempacado, ubicación de las unidades reempacadas en el estante y fila correspondiente y entrega de las unidades empacadas al servicio de hospitalización.
-          .col-md-5
+          .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema5/img-13.jpg' style="max-width: 610px" alt="Imagen decorativa")
-
+              img(src='@/assets/curso/temas/tema5/img-13.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
       .py-4.py-md-5(titulo="Formato reempaque")
         .row.col-xl-10.mx-auto
           p.mb-4 El SDMDU debe contar con fuentes de información como historias clínicas, perfiles farmacoterapéuticos, actas de reuniones o comités institucionales, formatos de devoluciones y referentes bibliográficos que permitan aclarar cualquier protocolo de estabilidad de los medicamentos y mantenerse actualizados sobre nuevas moléculas.
           img(src='@/assets/curso/temas/tema5/img-14.svg' alt="Muestra formato de empaque en tabla de excel donde describe las siguientes columnas: Empaque No. Fecha – dd/mm/aa Hora Nombre comercial medicamento Nombre genérico Lote del medicamento Fecha de vencimiento Cantidad de unidades a reempacar Unidades por reempaque Cantidad D.D. reempacada Firma persona que hace el empaque Firma del supervisor")
-
     h3(data-aos="fade-right") Reenvase de medicamentos
-
     p.mb-5(data-aos="fade-right") Este proceso consiste en la preparación de mezclas intravenosas como nutriciones parenterales, medicamentos oncológicos, entre otros, que requieren protocolos de áreas estériles y especiales que solo son competencia de los Químicos Farmacéuticos.
-
     h3(data-aos="fade-right") Etapas del SDMDU
-
     p.mb-5(data-aos="fade-right") Las siguientes son las etapas relacionadas con el SDMDU:
-
     .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #EEF5FF")
       SlyderA(tipo="b")
         .row
-          .col-md-5(data-aos="fade-right")
+          .col-lg-5(data-aos="fade-right")
             p.mb-4.fw-bold Prescripción médica
             p El médico tratante determina el diagnóstico del paciente y posterior a ello realiza la prescripción médica manual (usar papel calcante) o sistematizada con todos los datos legalmente requeridos y se la entrega a la enfermera jefe encargada el servicio.
-          .col-md-7(data-aos="fade-left")
+          .col-lg-7(data-aos="fade-left")
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-15.jpg' style="max-width: 660px" alt="Imagen decorativa")
-        
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-15.jpg' style="max-width: 360px" alt="Imagen decorativa")
         .row
-          .col-md-5
+          .col-lg-5
             p.mb-4.fw-bold Entrega de prescripción 
             p Posterior a la revisión, la enfermera procede a enviar vía electrónica o entregar la copia de la prescripción médica al Químico Farmacéutico encargado del servicio farmacéutico.
-          .col-md-7
+          .col-lg-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-16.jpg' style="max-width: 660px" alt="Imagen decorativa")
-        
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-16.jpg' style="max-width: 360px" alt="Imagen decorativa")
         .row
-          .col-md-5
+          .col-lg-5
             p.mb-4.fw-bold Alistamiento de carros de unidosis 
             ul
               li.d-flex.align-items-start.mb-3
@@ -386,12 +355,11 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Antes de ser entregados los carros a las enfermeras, debe realizarse una última inspección para corroborar que cada cajetín contenga los medicamentos prescritos para ese paciente.
-          .col-md-7
+          .col-lg-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-18.jpg' style="max-width: 660px" alt="Imagen decorativa")
-
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-18.jpg' style="max-width: 360px" alt="Imagen decorativa")
         .row
-          .col-md-5
+          .col-lg-5
             p.mb-4.fw-bold Intercambio de cajetines
             ul
               li.d-flex.align-items-start.mb-3
@@ -405,12 +373,11 @@
                   br
                   br
                   |Antes de reubicar los medicamentos devueltos, deben ser revisados por el Químico Farmacéutico encargado del servicio y será quien determine si se reubican o se descartan bajo protocolos.
-          .col-md-7
+          .col-lg-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-19.svg' style="max-width: 660px" alt="Imagen decorativa")
-
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-19.svg' style="max-width: 560px" alt="Imagen decorativa")
         .row
-          .col-md-5
+          .col-lg-5
             p.mb-4.fw-bold Revisión y elaboración del perfil farmacoterapéutico
             ul
               li.d-flex.align-items-start.mb-3
@@ -441,12 +408,11 @@
                     p.mb-0 Cada uno de los medicamentos prescritos con concentración, esquema de dosis y días de tratamiento.
                   li
                     p.mb-0 Una vez este diligenciado el perfil, deberá ser revisado y validado por el Químico Farmacéutico que esté a cargo del servicio de distribución de medicamentos por dosis unitaria.
-          .col-md-7
+          .col-lg-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-17.svg' style="max-width: 660px" alt="Imagen decorativa")
-
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-17.svg' style="max-width: 360px" alt="Imagen decorativa")
         .row
-          .col-md-5
+          .col-lg-5
             p.mb-4.fw-bold Trasporte de carros de unidosis
             ul
               li.d-flex.align-items-start.mb-3
@@ -458,16 +424,15 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Hay carros que permiten el transporte de los dispositivos médicos requeridos.
-          .col-md-7
+          .col-lg-7
             figure
-              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.png' style="max-width: 660px" alt="Imagen decorativa")
-
+              img.tarjeta.mx-auto(src='@/assets/curso/temas/tema5/img-20.png' style="max-width: 360px" alt="Imagen decorativa").m-auto
     h3(data-aos="fade-right") Control del sistema de distribución de dosis unitaria
-
     p.mb-5(data-aos="fade-right") El control del SDMDU se realiza a través de los indicadores de gestión de la calidad para este proceso. La fórmula que se aplica es:
+    .row.justify-content-center
+      .col-auto.tarjeta.p-4(style="background-color: #E5DFFA")
+        img(src='@/assets/curso/temas/tema5/img-21.svg' style="max-width: 790px" data-aos="fade-left" alt="Imagen decorativa")
 
-    .col-xl-9.tarjeta.offset-2.p-4(style="background-color: #E5DFFA")
-      img.mx-auto(src='@/assets/curso/temas/tema5/img-21.svg' style="max-width: 690px" data-aos="fade-left" alt="Imagen decorativa")
 </template>
 
 <script>
