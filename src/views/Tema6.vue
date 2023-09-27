@@ -39,10 +39,8 @@
             img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
             p.mb-0(data-aos="fade-left") Favorecer la absorción  del medicamento.
       img.col-lg-5.ps-lg-4.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 408px" data-aos="fade-left" alt="Imagen decorativa")
-    
     p.mb-4 Las formas farmacéuticas se clasifican en:
     h4.mb-4 Sólidas
-
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Tabletas")
         .row
@@ -255,12 +253,10 @@
           img.mb-auto(src='@/assets/curso/temas/tema6/img-35.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             p Las formas farmacéuticas que hacen parte de esta vía son las gaseosas. Es una vía fácil de utilizar ya que los medicamentos vienen en presentaciones que ayudan a esto.
-            //- p Para su administración en el caso de los inhaladores se deben agitar antes de usar y son de uno personal; en el caso de utilizar nebulizadores o mascarillas se debe asegurar que estas estén bien puestas para evitar escapes de medicamento.
-
         .d-flex.flex-wrap(titulo="Rectal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-36.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4 
-            p las formas farmacéuticas que hacen parte de esta vía son los supositorios y enemas rectales. Esta vía es de rápida absorción por la gran vascularización del recto.
+            p Las formas farmacéuticas que hacen parte de esta vía son los supositorios y enemas rectales. Esta vía es de rápida absorción por la gran vascularización del recto.
             p Para su administración la persona encargada de la administración debe tener las manos limpias. En el caso de los supositorios el paciente puede ponerse en cuclillas o acostarse de lado y para el enema debe seguir las instrucciones de uso. 
         .d-flex.flex-wrap(titulo="Vaginal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-37.jpg' style="max-width: 295px" alt="Imagen decorativa")
@@ -285,17 +281,14 @@
               br
               br
               |Vía subcutánea (SC): El medicamento se aplica debajo de la piel justo en el tejido adiposo. Su absorción es lenta y solo permite pequeñas cantidades de medicamento. Está autorizada a nivel farmacéutico.
-
     .titulo-segundo.color-acento-contenido
       h2#t_6_3 6.3	Manejo de residuos y políticas posconsumo
-    
     p.mb-5(data-aos="fade-right") Los medicamentos utilizados por los pacientes por diferentes causas como cambios de tratamiento, vencimiento o sobrantes, se convierten en residuos, los cuales deben ser manejados de forma diferente a los residuos que se originan en casa.
       br
       br
       |Por tal motivo el Ministerio de Ambiente y Desarrollo Sostenible viene trabajando una estrategia con el propósito de fomentar la gestión ambiental adecuada de los residuos posconsumo con el objetivo que estos sean sujetos a sistemas de gestión diferencial y eludir que la disposición final se realice conjuntamente con los residuos hogareños. 
       br
       |Uno de los siete programas posconsumo es el de los medicamentos vencidos, que solo incluye los siguientes residuos:
-
     .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4.mb-5(style="background-color: #F7F6FE")
       ul
         li.d-flex.align-items-start.mb-4
@@ -307,20 +300,16 @@
         li.d-flex.align-items-start.mb-4
           img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
           p.mb-0(data-aos="fade-left") Medicamentos parcialmente consumidos.
-    
     p.mb-5(data-aos="fade-right") Para el descarte de estos residuos se cuenta con unos contenedores seguros denominados “punto azul”, instalados en farmacias, Farmacias – Droguerías, servicios farmacéuticos e IPS, en los cuales cualquier persona de la comunidad puede ir y depositar los residuos posconsumo que cumplan con los requisitos anteriormente mencionados.
       br
       br
       |En la siguiente imagen se ilustran los tipos de contenedores que pueden utilizarse para depositar los residuos.
-
     .col-lg-10.col-xl-8.mx-auto.mb-5
       .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
         p.mb-0.text-small Figura 4
         span.text-small Contenedores para depositar residuos
       img(src="@/assets/curso/temas/tema6/img-39.jpg" data-aos="fade-left" alt="Imagen muestra 4 contenedores para depositar residuos con tapas de color azul, vede, amarillo y roja ")
-
     p.mb-5(data-aos="fade-right") La entrega de los residuos se debe realiza bajo los siguientes parámetros:
-
     .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4(style="background-color: #F7F6FE")
       ul
         li.d-flex.align-items-start.mb-4
@@ -344,6 +333,7 @@
         li.d-flex.align-items-start.mb-4
           img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
           p.mb-0(data-aos="fade-left") Si la bolsa en la que transportó los residuos tiene líquidos o sólidos relacionados con los medicamentos, depositar también la bolsa, en caso contrario se puede depositarla en otro contenedor diferente al punto azul.
+
 </template>
 
 <script>
