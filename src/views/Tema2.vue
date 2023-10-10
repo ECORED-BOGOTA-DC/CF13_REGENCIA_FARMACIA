@@ -41,27 +41,32 @@
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2 Áreas técnicas
+    
     p.mb-5(data-aos="fade-right") Para los establecimientos farmacéuticos como los Depósitos de Drogas y las Agencias de Especialidades Farmacéuticas, establecimientos farmacéuticos minoristas como las Farmacias-Droguerías y las Droguerías, y servicios farmacéuticos hospitalarios de alta, mediana y baja complejidad, las áreas están determinadas por la resolución 1403 del 2007.
       br
       br
-      |A continuación se describen dichas áreas:
+      | A continuación, se describen dichas áreas:
+    
     .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F2EEFC")
       SlyderA.slyder-a-edit(tipo="b")
         .row
           .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-            p.mb-5.fw-bold Depósitos de drogas
+            .h5.mb-5 Depósitos de drogas
             p En la imagen se muestran sus áreas.
           .col-lg-7(data-aos="fade-left")
+            .titulo-sexto.color-acento-botones
+              h5 Figura 1.
+              span Depósitos de drogas
             figure
               img.mx-auto(src='@/assets/curso/temas/tema2/img-2.png' style="max-width: 660px" alt="Muestra depósitos de drogas: Administrativa delimitada. De recepción. Cuarentena. Almacenamiento de acuerdo a los productos. Almacenamiento de medicamentos de control especial. Almacenamiento de materias primas y que requieran cadena de frío. Almacenamiento para destrucción o desnaturalización. Almacenamiento rechazado, devueltos y retirados del mercado. De alistamiento y despacho. Reenvase de materias primas en caso de realizarlo Manejo y disposición de residuos reglamentación vigente.")
         .row
           .col-12
-            p.mb-5.fw-bold Agencias de especialidades farmacéuticas
-            p Para estas se aplican las mismas disposiciones mencionadas a los depósitos de drogas, con excepción del reenvase de materias primas, pues no lo tienen autorizado.
+            .h5.mb-5 Agencias de especialidades farmacéuticas
+            p Para estas se aplican las mismas disposiciones mencionadas a los depósitos de drogas, con excepción el reenvase de materias primas, pues no lo tienen autorizado.
         .row
           .col-lg-5.mb-4.mb-lg-0
-            p.mb-5.fw-bold Farmacias - droguerías
-            p En la imagen se muestran las áreas que la conforman. Adicionalmente se debe tener en cuenta:
+            .h5.mb-5 Farmacias - droguerías
+            p En la imagen se muestran las áreas que la conforman. Adicionalmente, se debe tener en cuenta:
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -76,25 +81,18 @@
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
           .col-lg-7
+            .titulo-sexto.color-acento-botones
+              h5 Figura 2.
+              span Farmacias - droguerías
             figure
               img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px" alt="Muestra áreas de farmacia droguerías: Bodega. Aseo. Servicios sanitarios. Preparados magistrales. Medicamentos de control especial. Almacenamiento. Dispensación. Sustancias inflamables. Cuarentena. Inyectología. Cadena de frío. Recepción. Administrativa")
         .row
-          .col-lg-5.mb-4.mb-lg-0
-            p.mb-5.fw-bold Droguerías
-            p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla.
-          .col-lg-7
-            figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.png' style="max-width: 660px" alt="Muestra áreas de farmacia droguerías: Bodega. Aseo. Servicios sanitarios. Preparados magistrales. Medicamentos de control especial. Almacenamiento. Dispensación. Sustancias inflamables. Cuarentena. Inyectología. Cadena de frío. Recepción. Administrativa")
+          .col-12
+            .h5.mb-5 Droguerías
+            p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales, ya que las droguerías no están autorizadas para tenerla.
         .row
           .col-lg-5.mb-4.mb-lg-0
-            p.mb-5.fw-bold Servicios farmacéuticos hospitalarios de baja complejidad
-            p Este servicio debe contar las áreas mostradas en la imagen.
-          .col-lg-7
-            figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.png' style="max-width: 660px" alt="Muestra listado de servicios farmacéuticos hospitalarios de baja complejidad: Administrativa delimitada. De recepción. Cuarentena. Almacenamiento de acuerdo a los productos. Almacenamiento de medicamentos de control especial. Dispensación. Almacenamiento para destrucción o desnaturalización. Almacenamiento rechazado, devueltos y retirados del mercado. Manejo y disposición de residuos reglamentación vigente.")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
-            p.mb-5.fw-bold Servicios farmacéuticos hospitalarios de mediana y alta complejidad
+            .h5.mb-5 Servicios farmacéuticos hospitalarios de mediana y alta complejidad
             p Además de las áreas mencionadas para el servicio farmacéutico hospitalario de baja complejidad, el servicio farmacéutico hospitalario de mediana y alta complejidad, debe tener las siguientes áreas adicionales:
           .col-lg-7
             figure
@@ -140,12 +138,12 @@
       li(data-aos="fade-right")
         span.text-bold 2.
         | La entrega oportuna de medicamentos eficaces, seguros y de calidad, almacenados, dispensados y administrados adecuadamente y con la mejor relación costo-beneficio.
-    p.mb-5(data-aos="fade-right") El uso racional de los medicamentos fomenta que el cuidado de la salud sea con calidad. A continuación se presentan las buenas prácticas que el paciente debe aplicar para el uso racional de los medicamentos.
+    p.mb-5(data-aos="fade-right") El uso racional de los medicamentos fomenta que el cuidado de la salud sea con calidad. A continuación, se presentan las buenas prácticas que el paciente debe aplicar para el uso racional de los medicamentos.
     .container-edit-1(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}")
       .col-lg-10.mx-auto.mb-5
-        .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-          p.mb-0.text-small.fw-bold Figura 1
-          span.text-small Buenas prácticas del paciente para el uso racional de medicamentos
+        .titulo-sexto.color-acento-botones(data-aos="fade-right")
+          h5 Figura 3.
+          span Buenas prácticas del paciente para el uso racional de medicamentos
         p.text-center(data-aos="fade-right") En <span style="font-weight: bold; color: #00BCD4">2010</span>, la OMS calculó que <span style="font-weight: bold; color: #00BCD4">más de la mitad de los medicamentos</span> se prescriben, dispensan o venden de forma inapropiada, y que la mitad de los pacientes <span style="font-weight: bold; color: #00BCD4">no los toman correctamente.</span>
       .col-lg-4.col-xl-3
         .d-flex.align-items-center.mb-4
@@ -172,7 +170,7 @@
           .container-pill
             img(src="@/assets/curso/temas/tema2/decorador-1.svg")
             span 5
-          p.mb-0.ps-3(data-aos="fade-right") NO recomiende a otros consumir medicamentos que haya utilizado.
+          p.mb-0.ps-3(data-aos="fade-right") No recomiende a otros consumir medicamentos que haya utilizado.
       img.col-lg-4.d-none.d-lg-flex.px-lg-4(src="@/assets/curso/temas/tema2/img-8.svg" alt="Muestra imagen de un medicamente y en la parte inferior describe 10 Buenas prácticas del paciente para el uso racional de los medicamentos")
       .col-lg-4.col-xl-3
         .d-flex.align-items-center.mb-4
@@ -221,7 +219,7 @@
                 p.mb-0 Debe ser en letra clara y legible, con las indicaciones necesarias para su administración.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 En idioma español, en forma escrita ya sea por copia mecanográfica, medio electromagnético o computarizado.
+                p.mb-0 En idioma español, en forma escrita, ya sea por copia mecanográfica, medio electromagnético o computarizado.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 No podrá contener enmendaduras o tachaduras, siglas, claves, signos secretos, abreviaturas o símbolos químicos, con la excepción de las abreviaturas aprobadas por el Comité de Farmacia y Terapéutica de la Institución.
@@ -279,7 +277,7 @@
             ul
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Está en toda la capacidad de comprender cada uno de los productos farmacéuticos que están allí prescritos y de evidenciar cualquier error que se presente. En caso tal de que esto último suceda, de ser posible debe comunicarse con el médico tratante y/o no dispensar la receta.
+                p.mb-0 Está en toda la capacidad de comprender cada uno de los productos farmacéuticos que están allí prescritos y de evidenciar cualquier error que se presente. En caso tal de que esto último suceda, de ser posible, debe comunicarse con el médico tratante y/o no dispensar la receta.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Por ningún motivo debe adivinar cualquiera de los productos allí prescritos o alguna de sus características, es decir, como concentración, forma farmacéutica, dosis, etc.
@@ -310,19 +308,19 @@
         img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
         p.mb-0(data-aos="fade-left") Forma y vía de administración, enfatizando en los que son más complejos de administrar: polvos para reconstituir, comprimidos sublinguales, gotas ópticas y oftalmológicas, óvulos, inhaladores, entre otros; posología, almacenamiento en casa, etc.
     .cajon.cajon-edit.color-acento-contenido.col-md-8.col-lg-7.mx-auto.p-4.mb-5(style="background-color: #BFEEF4")
-      p(data-aos="fade-right") Debemos tener presente que los medicamentos que no requieren prescripción médica por ser de venta libre, no se pueden recomendar, es decir, cuando el usuario se acerca preguntando por un medicamento para el dolor de cabeza el farmacéutico no puede recomendarle ninguno, muy diferente si llega solicitando uno en específico y pregunta cómo se debe administrar. <b>Siempre se debe hablar al usuario sobre los riesgos de la automedicación. </b>
+      p(data-aos="fade-right") Debemos tener presente que los medicamentos que no requieren prescripción médica por ser de venta libre, no se pueden recomendar, es decir, cuando el usuario se acerca preguntando por un medicamento para el dolor de cabeza, el farmacéutico no puede recomendarle ninguno, muy diferente si llega solicitando uno en específico y pregunta cómo se debe administrar. <b>Siempre se debe hablar al usuario sobre los riesgos de la automedicación. </b>
     .d-flex.flex-wrap
       .col-lg-5.d-flex.align-items-center
         .conatiner-offset-3.p-3
           p.mb-3.w-100(data-aos="fade-left") Los productos antes de ser empacados, deben ser enseñados al usuario, confirmado nombre del producto y cantidad entregada, advirtiendo que antes de retirarse del establecimiento debe estar seguro de lo que se le dispensó, porque después de salir de allí no se aceptan devoluciones. En caso de ser a domicilio, el usuario debe realizar la revisión de lo recibido antes que el domiciliario se retire.
             br
             br
-            |Por último, se procede al registro o facturación de los productos entregados o vendidos en las fuentes implementadas para ello ya sea <em>software</em>, Excel o manual.
+            |Por último, se procede al registro o facturación de los productos entregados o vendidos en las fuentes implementadas para ello, ya sea <em>software</em>, Excel o manual.
       img.col-lg-6(src='@/assets/curso/temas/tema2/img-14.jpg' style="max-width: 714px" alt="Imagen decorativa")
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_2_7 2.7 Fuentes de información
-    p.mb-5(data-aos="fade-right") Toda área de dispensación debe contar con referentes bibliográficos de medicamentos ya sea físicos o digitales que provean al farmacéutico de toda la información necesaria para dar una asesoría al paciente eficaz, completa y veraz, como:
+    p.mb-5(data-aos="fade-right") Toda área de dispensación debe contar con referentes bibliográficos de medicamentos, ya sean físicos o digitales, que provean al farmacéutico de toda la información necesaria para dar una asesoría al paciente eficaz, completa y veraz, como:
     ul
       li.d-flex.align-items-start.mb-3
         img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")

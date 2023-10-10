@@ -100,7 +100,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              p Con el propósito de tener claro qué son, cómo funcionan y demás información de cada uno de los procesos generales y especiales del servicio farmacéutico, se propone ingresar a Resolución 1403 de 2007 allí en el capítulo II - hoja 44 encontrará los procedimientos para los procesos generales y en el capítulo III - hoja 57 los procedimiento para los procesos especiales: 
+              p Con el propósito de tener claro qué son, cómo funcionan y demás información de cada uno de los procesos generales y especiales del servicio farmacéutico, se propone ingresar a Resolución 1403 de 2007, allí en el capítulo II - hoja 44 encontrará los procedimientos para los procesos generales y en el capítulo III - hoja 57 los procedimientos para los procesos especiales: 
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo1_Resolucion_1403_2007.pdf')" target="_blank")
                 span(style="color: black !important") Descargar

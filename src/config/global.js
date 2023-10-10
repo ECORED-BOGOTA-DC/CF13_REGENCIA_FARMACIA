@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Dispensación y distribución de medicamentos',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia entregar productos farmacéuticos según delegación y normativa de salud, referentes a los dos procesos generales de dispensación y distribución de medicamentos y dispositivos médicos soportados por la resolución 1403 de 2007, con el fin de reconocer su importancia en la preservación de la salud y bienestar de las personas.',
+      'En este componente formativo se abordan los conocimientos de la competencia entregar productos farmacéuticos, según delegación y normativa de salud, referentes a los dos procesos generales de dispensación y distribución de medicamentos y dispositivos médicos soportados por la resolución 1403 de 2007, con el fin de reconocer su importancia en la preservación de la salud y bienestar de las personas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [],
@@ -156,13 +156,9 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/331502_CF13_DU.pdf',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -174,7 +170,7 @@ export default {
     {
       tema: 'Proceso de dispensación',
       referencia:
-        'Hospital Nacional. [Hospital Nacional]. (2020, 6 de febrero). <em>Dispensación correcta de la receta médica</em> [vídeo]. Youtube.',
+        'Hospital Nacional. [Hospital Nacional]. (2020, 6 de febrero). Dispensación correcta de la receta médica [vídeo]. Youtube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=NsOPkDXeI1Y&ab_channel=HospitalNacional',
@@ -182,7 +178,7 @@ export default {
     {
       tema: 'Proceso de distribución de medicamentos y dispositivos médicos',
       referencia:
-        'UMA. [Universidad Maria Auxiliadora]. (2015, 1 de octubre). <em>Conferencia: el farmacéutico en la dosis unitaria</em> [vídeo]. Youtube.',
+        'UMA. [Universidad Maria Auxiliadora]. (2015, 1 de octubre). Conferencia: el farmacéutico en la dosis unitaria [vídeo]. Youtube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=WO1F7QeIrlE&ab_channel=UniversidadMariaAuxiliadora',
@@ -190,7 +186,7 @@ export default {
     {
       tema: 'Proceso de distribución de medicamentos y dispositivos médicos',
       referencia:
-        'Velendia, S. [Sofia Velandia]. (2020, 27 de octubre). <em>Sistema de Distribución de Medicamentos en Dosis Unitaria (SDMDU)</em> [vídeo]. Youtube.',
+        'Velendia, S. [Sofia Velandia]. (2020, 27 de octubre). Sistema de Distribución de Medicamentos en Dosis Unitaria (SDMDU) [vídeo]. Youtube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=bkEgw-OciAI&ab_channel=SofiaVelandia',
@@ -201,7 +197,7 @@ export default {
         'Ministerio de Ambiente y Desarrollo Sostenible. (2021). Programas posconsumo.',
       tipo: 'Documento',
       link:
-        'https://www.minambiente.gov.co/index.php/component/content/article/28-plantilla-asuntos-ambientales-y-sectorial-y-urbana',
+        'https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/programas-pos-consumos/',
     },
     {
       tema:
@@ -266,8 +262,9 @@ export default {
         'Es el texto que incluye todos los medicamentos en el envase y que contiene la información para el paciente sobre las características del fármaco.',
     },
     {
-      termino: 'SDMDU:',
-      significado: 'Sistema de Distribución de Medicamentos en Dosis Unitaria.',
+      termino: 'SDMDU',
+      significado:
+        ' Sistema de Distribución de Medicamentos en Dosis Unitaria.',
     },
     {
       termino: 'Separata',
@@ -290,7 +287,7 @@ export default {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2021). <em>Programas posconsumo.</em>',
       link:
-        'https://www.minambiente.gov.co/index.php/component/content/article/28-plantilla-asuntos-ambientales-y-sectorial-y-urbana',
+        'https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/programas-pos-consumos/',
     },
     {
       referencia:
@@ -314,7 +311,7 @@ export default {
       referencia:
         'Unab. (s.f.). <em>Unidad 5: Dispensación y Distribución de medicamentos y dispositivos médicos.</em>',
       link:
-        'http://unab.edupol.com.co/pluginfile.php/7208/mod_resource/content/1/UNIDAD_5%20Dispensaci%C3%B3n%20y%20distribuci%C3%B3n%20de%20medicamentos%20y%20dispositivos%20m%C3%A9dicos.pdf',
+        'https://repository.unab.edu.co/bitstream/handle/20.500.12749/15325/2021_Tesis_Heidy_Manoslva_Arias.pdf?sequence=1',
     },
   ],
   creditos: [

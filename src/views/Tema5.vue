@@ -33,9 +33,9 @@
     p.mb-5(data-aos="fade-right") En la siguiente imagen se ilustra el canal de distribución externo de productos farmacéuticos.
 
     .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-      p.mb-0.text-small.fw-bold Figura 3
-      span.text-small Canal de distribución externa
-    img.col-lg-10.mx-auto(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left" alt="muestra canal de distribución externa, donde: laboratorio fabricante vende a distribuidores mayoristas, minoristas y servicios farmacéuticos intrahospitalarios y estos lo distribuyen a farmacias que venden a los pacientes ")
+      h5 Figura 5.
+      span Canal de distribución externa
+    img.col-lg-10.mx-auto(src="@/assets/curso/temas/tema5/img-1.svg" data-aos="fade-left" alt="muestra canal de distribución externa, donde: laboratorio fabricante vende a distribuidores mayoristas, minoristas y servicios farmacéuticos intrahospitalarios y estos lo distribuyen a farmacias que venden a los pacientes.")
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_5_2 5.2 Distribución interna
@@ -44,7 +44,7 @@
       p(data-aos="fade-right") La resolución 1403 del 2007 la define como:
         br
         br
-        |“El proceso que comprende la prescripción de un medicamento a un paciente en una Institución Prestadora de Servicios de Salud por parte del profesional legalmente autorizado, la dispensación por parte del servicio farmacéutico, la administración correcta en la dosis y vía prescrita y en el momento oportuno por el profesional de la salud legalmente autorizado para tal fin y el registro de los medicamentos administrados y/o la devolución debidamente sustentada de los no administrados con el fin de contribuir al éxito de la farmacoterapia. El servicio farmacéutico deberá determinar el sistema o los sistemas de distribución intra­ hospitalaria de medicamentos y dispositivos médicos que deban implementarse en la Institución Prestadora de Servicios de Salud, para garantizar la oportunidad, seguridad, eficiencia y calidad de los medicamentos y dispositivos médicos que deban suministrarse a los pacientes” (p.51). 
+        |“El proceso que comprende la prescripción de un medicamento a un paciente en una Institución Prestadora de Servicios de Salud por parte del profesional legalmente autorizado, la dispensación por parte del servicio farmacéutico, la administración correcta en la dosis y vía prescrita y en el momento oportuno por el profesional de la salud legalmente autorizado para tal fin y el registro de los medicamentos administrados y/o la devolución debidamente sustentada de los no administrados con el fin de contribuir al éxito de la farmacoterapia. El servicio farmacéutico deberá determinar el sistema o los sistemas de distribución intrahospitalaria de medicamentos y dispositivos médicos que deban implementarse en la Institución Prestadora de Servicios de Salud, para garantizar la oportunidad, seguridad, eficiencia y calidad de los medicamentos y dispositivos médicos que deban suministrarse a los pacientes” (p.51). 
 
     h3(data-aos="fade-right") Clases de distribución interna
     p.mb-5(data-aos="fade-right") Los siguientes son los sistemas de distribución interna:
@@ -75,7 +75,7 @@
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
                 p.mb-0 Los despachos se realizan para 24 horas.
-              p.mb-0 <b>Ventajas:</b> permite un mayor control por parte del personal de farmacia al poder revisar cada una de las ordenes médicas y mayor control de inventario.
+              p.mb-0 <b>Ventajas:</b> permite un mayor control por parte del personal de farmacia al poder revisar cada una de las órdenes médicas y mayor control de inventario.
                 br
                 br
                 |<b>Desventajas:</b> se dan por los problemas en las transcripciones que implican mayor tiempo laboral del personal de enfermería y la falta de evidencias en posibles errores de medicación, ya que los farmacéuticos no tienen como revisar las dosis de los medicamentos aplicados a los pacientes.
@@ -134,7 +134,7 @@
     h3(data-aos="fade-right") Infraestructura
     p.mb-5(data-aos="fade-right") Para la implementación del SDMDU, el servicio farmacéutico debe cumplir con las siguientes características:
     TabsB.color-acento-contenido(style="border: none")
-      .py-4.py-md-5(titulo="<em>Área</em>")
+      .py-4.py-md-5(titulo="Área")
         .row.col-xl-10.mx-auto
           .col-lg-6.mb-4.mb-lg-0.me-auto(data-aos="fade-right")
             p Debe contar con un área que permita realizar los procesos generales y especiales que le apliquen según la normatividad legal vigente y cada una de las actividades propias del sistema como:
@@ -177,7 +177,7 @@
                     p.mb-0 La capacidad de los carros depende de la capacidad de dichas áreas.
                   li.d-flex.align-items-start.mb-3
                     img.me-2(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 13px; margin-top: 5px")
-                    p.mb-0 Los carros están divididos por cajones que a su vez tienen una serie de cajetines en los cuales se ubican los medicamentos y están respectivamente marcados con número de historia cínica o nombre, numero de piso y numero de cama del paciente. 
+                    p.mb-0 Los carros están divididos por cajones que a su vez tienen una serie de cajetines en los cuales se ubican los medicamentos y están respectivamente marcados con número de historia cínica o nombre, número de piso y número de cama del paciente. 
                   li.d-flex.align-items-start.mb-3
                     img.me-2(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 13px; margin-top: 5px")
                     p.mb-0 Se utiliza un cajetín por paciente y solo se entrega medicación para 24 horas, además de cada cajetín debe haber dos unidades, una que se llena y otra que permanece vacía en farmacia con el fin de poder realizar el intercambio vacío/lleno en cada entrega.
@@ -193,10 +193,10 @@
                 p.mb-0 Se debe contar con personal calificado que tenga la capacidad de realizar cada una de las actividades que requiere el proceso de distribución por dosis unitaria.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 A nivel normativo el director técnico responsable del servicio solo puede estar a cargo de un químico farmacéutico.
+                p.mb-0 A nivel normativo, el director técnico responsable del servicio solo puede estar a cargo de un químico farmacéutico.
               li.d-flex.align-items-start.mb-3
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                p.mb-0 Es indispensable que el recurso humano sea profesional en farmacia como regentes y químicos farmacéuticos, que estén capacitados en distribución por dosis unitaria, estén entrenados en farmacoterapia y conocedores de la composición química, fotosensibilidad, termolabilidad, sensibilidad a la humedad (higroscópico), entre otras de los medicamentos.
+                p.mb-0 Es indispensable que el recurso humano sea profesional en farmacia como regentes y químicos farmacéuticos, que estén capacitados en distribución por dosis unitaria, estén entrenados en farmacoterapia y conocedores de la composición química, fotosensibilidad, termolabilidad, sensibilidad a la humedad (higroscópico), entre otros de los medicamentos.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema5/img-9.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
@@ -234,10 +234,10 @@
       li.d-flex.align-items-start.mb-3
         img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px" data-aos="fade-right")
         p.mb-0(data-aos="fade-left") Ofrece un manejo más controlado.
-    p.mb-5(data-aos="fade-right") Este proceso está a cargo del servicio farmacéutico y debe garantizar seguridad (paciente correcto, dosis correcta y vía y frecuencia correcta), eficacia (prescripción + distribución + administración = atención correcta) y control (evitar errores antes de la administración de los medicamentos al paciente) 
+    p.mb-5(data-aos="fade-right") Este proceso está a cargo del servicio farmacéutico y debe garantizar seguridad (paciente correcto, dosis correcta y vía y frecuencia correcta), eficacia (prescripción + distribución + administración = atención correcta) y control (evitar errores antes de la  al paciente).
       br
       br
-      |A continuación analizaremos la información relacionada con el proceso de reempaque:
+      | A continuación, analizaremos la información relacionada con el proceso de reempaque:
     TabsB.color-acento-contenido(style="border: none")
       .py-4.py-md-5(titulo="Multidosis a unidosis")
         .row.col-xl-10.mx-auto
@@ -257,7 +257,7 @@
           .col-lg-7.mb-4.mb-lg-0.pe-md-4
             p El empaque debe ser en material de bolsa transparente, igual en tamaño y selladas.
               br
-              |En cuanto al título este debe llevar la siguiente información determinada por la resolución 1403 del 2007:
+              | En cuanto al título, este debe llevar la siguiente información determinada por la resolución 1403 del 2007:
             ul
               li.d-flex.align-items-start.mb-0
                 img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
@@ -282,7 +282,7 @@
                 p.mb-0 Registro sanitario.
             p.mb-o En los envases o empaques pequeños la información se incluirá en una separata.
               br
-              |A la información anteriormente mencionada se le debe agregar el número de lote otorgado durante el reempaque y el nombre del responsable del reempaque.
+              | A la información anteriormente mencionada se le debe agregar el número de lote otorgado durante el reempaque y el nombre del responsable del reempaque.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema5/img-12.jpg' style="max-width: 310px" alt="Imagen decorativa").m-auto
@@ -291,9 +291,9 @@
           .col-lg-7.mb-4.mb-lg-0.me-auto.pe-lg-4
             p 1. Lavado de manos bajo protocolo y utilización de elementos de protección personal como bata, gorro, guantes quirúrgicos y tapabocas.
               br
-              |2. Solo se reemplaza un medicamento a la vez y por ende solo se tendrán los rótulos correspondientes a ese medicamento. No debe haber ningún otro producto sobre el mesón, ya que en todo momento se debe evitar contaminar el medicamento. Además se debe realizar manejo adecuado y control de desechos bajo protocolo.
+              |2. Solo se reemplaza un medicamento a la vez y por ende solo se tendrán los rótulos correspondientes a ese medicamento. No debe haber ningún otro producto sobre el mesón, ya que en todo momento se debe evitar contaminar el medicamento. Además, se debe realizar manejo adecuado y control de desechos bajo protocolo.
               br
-              |3. Se realizará verificación del proceso mediante auditorías internas y externas acorde a listas de verificación teniendo presente la normatividad legal vigente.
+              |3. Se realizará verificación del proceso mediante auditorías internas y externas, acorde a listas de verificación, teniendo presente la normatividad legal vigente.
               br
               |4. El personal calificado y entrenado responsable del empaque, debe cumplir con unos requisitos que son:
             ul
@@ -389,7 +389,7 @@
               li.mb-3
                 .d-flex.align-items-start
                   img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                  p.mb-0 Si todo esta correcto el Químico Farmacéutico o a quien este delegue (Regente de Farmacia) procede a elaborar el perfil farmacoterapéutico, el cual es un formato donde se registran todos los datos del paciente como:
+                  p.mb-0 Si todo está correcto el Químico Farmacéutico o a quien este delegue (Regente de Farmacia) procede a elaborar el perfil farmacoterapéutico, el cual es un formato donde se registran todos los datos del paciente como:
                 ul.ps-4
                   li.d-flex.align-items-start.mb-3
                     img.me-2(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 15px; margin-top: 5px")

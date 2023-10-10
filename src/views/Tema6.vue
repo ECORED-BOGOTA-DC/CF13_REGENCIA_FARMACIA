@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 6
       h1 Administración de medicamentos
-    p.mb-0(data-aos="fade-right") En la administración de medicamentos entran dos puntos importantes que son: la forma farmacéutica del medicamento y la vía de administración de este medicamentos, las cuales estudiaremos a continuación.
+    p.mb-0(data-aos="fade-right") En la administración de medicamentos entran dos puntos importantes que son: la forma farmacéutica del medicamento y la vía de administración de este medicamento, las cuales estudiaremos a continuación.
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_6_1 6.1 Formas farmacéuticas
@@ -47,7 +47,7 @@
           .col-lg-5.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
             p Son compactas, normalmente son redondas o alargadas y no siempre tiene camuflaje de sabor y olor.
               br
-              |Se clasifican en <em>tabletas orales</em> su desintegración se hace en el estómago para iniciar la absorción del principio activo, <em>tabletas masticables</em> su desintegración se hace en la boca y <em>tabletas vaginales</em> donde su desintegración es dentro de la vagina.
+              |Se clasifican en <em>tabletas orales,</em> su desintegración se hace en el estómago para iniciar la absorción del principio activo, <em>tabletas masticables</em> su desintegración se hace en la boca y <em>tabletas vaginales</em> donde su desintegración es dentro de la vagina.
           .col-lg-6(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img-2.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Cápsulas")
@@ -76,14 +76,14 @@
       .py-3.py-md-4(titulo="Granulados")
         .row
           .col-lg-5.mx-auto.mb-4.mb-lg-0
-            p constituido por uno o más principios activos y azúcar en forma de aglomeración de polvo y con un tamaño irregular.
+            p Constituido por uno o más principios activos y azúcar en forma de aglomeración de polvo y con un tamaño irregular.
           .col-lg-6
             img(src='@/assets/curso/temas/tema6/img-6.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Supositorios")
         .row
           .col-lg-5.mx-auto.mb-4.mb-lg-0
             p Su forma es cónica o de bala y su desintegración se da gracias al calor corporal dentro del recto. 
-            p Normalmente están elaborados a base de glicerina para facilitar su administración. Son de uso rectal.
+            p Normalmente, están elaborados a base de glicerina para facilitar su administración. Son de uso rectal.
           .col-lg-6
             img(src='@/assets/curso/temas/tema6/img-7.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
       .py-3.py-md-4(titulo="Óvulos")
@@ -127,7 +127,7 @@
       .py-3.py-md-4(titulo="Ungüento")
         .row
           .col-lg-5.mx-auto.mb-4.mb-lg-0
-            p su preparación es a base de sustancias grasosas y prácticamente nula de agua.
+            p Su preparación es a base de sustancias grasosas y prácticamente nula de agua.
           .col-lg-6
             img(src='@/assets/curso/temas/tema6/img-14.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
     h4.mb-4(data-aos="fade-right") Líquidas
@@ -182,12 +182,12 @@
           img(src='@/assets/curso/temas/tema6/img-25.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             h3.mb-4 Suspensión
-            p están formadas por un sólido insoluble en un vehículo acuoso u oleoso y su apariencia es turbia. 
+            p Están formadas por un sólido insoluble en un vehículo acuoso u oleoso y su apariencia es turbia. 
         .d-flex.flex-wrap(titulo="Emulsion")
           img(src='@/assets/curso/temas/tema6/img-26.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             h3.mb-4 Emulsion
-            p Sus principios activos se encuentran disueltos en dos vehículos uno acuoso y el otro aceitoso por lo cual su aspecto es lechoso.
+            p Sus principios activos se encuentran disueltos en dos vehículos, uno acuoso y el otro aceitoso, por lo cual su aspecto es lechoso.
     h4.mb-4(data-aos="fade-right") Gaseosas
     TabsC.color-primario
       .py-3.py-md-4(titulo="Inhaladores o aerosoles")
@@ -205,7 +205,7 @@
       .py-3.py-md-4(titulo="Nebulizadores")
         .row
           .col-lg-5.mx-auto.mb-4.mb-lg-0
-            p Son medicamentos líquidos que al usarse con un dispositivo médico llamado nebulizador se convierte en un gas permitiendo que el medicamento llegue más profundamente a las vías aéreas del paciente.
+            p Son medicamentos líquidos que al usarse con un dispositivo médico llamado nebulizador se convierte en un gas, permitiendo que el medicamento llegue más profundamente a las vías aéreas del paciente.
           .col-lg-6
             img(src='@/assets/curso/temas/tema6/img-29.jpg' style="max-width: 375px" alt="Imagen decorativa").m-auto
     Separador
@@ -220,58 +220,59 @@
             p Las formas farmacéuticas que hacen parte de esta vía son las tabletas, cápsulas, grageas, granulados, suspensiones, enema oral, jarabes e inhaladores bucales. Es una vía segura que en caso de exceso de dosis o intoxicación permite contrarrestar el daño con lavado gástrico. La desventaja que tiene es que la absorción de los medicamentos es muy lenta y variable. En muchos pacientes ocasiona irritación gástrica.
               br
               br
-              |Su administración en el caso de las tabletas, cápsulas y grageas debe ser siempre con agua; en todos los casos las manos deben estar limpias y se deben seguir las indicaciones médicas de dosificación. En el caso de los inhaladores bucales estos son de uso personal y antes de cada uso se debe asear la boquilla del inhalador.
+              |Su administración en el caso de las tabletas, cápsulas y grageas debe ser siempre con agua; en todos los casos las manos deben estar limpias y se deben seguir las indicaciones médicas de dosificación. En el caso de los inhaladores bucales, estos son de uso personal y antes de cada uso se debe asear la boquilla del inhalador.
         .d-flex.flex-wrap(titulo="Sublingual")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-31.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             p Las formas farmacéuticas que hacen parte de esta vía son las tabletas y grageas sublinguales y consiste en poner el medicamento debajo de la lengua sin masticar hasta que este se disuelva por completo. Esta es la segunda vía más rápida del organismo.
               br
               br
-              |Su administración no requiere agua, pero si se debe tener una asepsia de las manos para evitar contaminación.
+              |Su administración no requiere agua, pero sí se debe tener una asepsia de las manos para evitar contaminación.
         .d-flex.flex-wrap(titulo="Tópica")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-32.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             p Las formas farmacéuticas que hacen parte de esta vía son soluciones, tinturas, lociones, alimentos, suspensiones, emulsiones, cremas, pastas y geles o jaleas. Esta vía se utiliza cuando se requiere que la acción del medicamento sea local.
               br
               br
-              |Para su administración se requiere que la zona afectada este limpia y seca al igual que las manos de la persona que va a administrar el medicamento. En el caso de los productos que sean en tubo no se debe acercar la punta de este a la zona afectada e inmediatamente se saque la dosis requerida el envase debe ser bien tapado ya que todo esto podría ocasionar contaminación a todo el resto de medicamento.
+              |Para su administración se requiere que la zona afectada este limpia y seca, al igual que las manos de la persona que va a administrar el medicamento. En el caso de los productos que sean en tubo no se debe acercar la punta de este a la zona afectada e inmediatamente se saque la dosis requerida, el envase debe ser bien tapado, ya que todo esto podría ocasionar contaminación a todo el resto de medicamento.
         .d-flex.flex-wrap(titulo="Oftálmica")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-33.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             p Las formas farmacéuticas que hacen parte de esta vía son los colirios, ungüentos, cremas y soluciones. Todos los medicamentos de esta vía buscan efectividad precisa en los ojos y esta permite que se den elevadas concentraciones de principio activo.
               br
               br
-              |Para su administración el paciente debe estar en una posición sentado con la cabeza hacia atrás o acostado, la persona encargada de la administración del medicamento debe tener las manos limpias, la boquilla del envase no debe tocar el ojo en ningún momento, el paciente debe esperar unos minutos antes de cambiar de posición para evitar pérdidas del medicamento, no se debe tocar o rascar el ojo(s) después de la administración del medicamento.
+              |Para su administración el paciente debe estar en una posición sentada con la cabeza hacia atrás o acostado, la persona encargada de la administración del medicamento debe tener las manos limpias, la boquilla del envase no debe tocar el ojo en ningún momento, el paciente debe esperar unos minutos antes de cambiar de posición para evitar pérdidas del medicamento, no se debe tocar o rascar el ojo(s) después de la administración del medicamento.
         .d-flex.flex-wrap(titulo="Ótica")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-34.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             p Las formas farmacéuticas que hacen parte de esta vía son las soluciones y suspensiones. Todos los medicamentos de esta vía buscan efectividad precisa en los oídos. Los efectos adversos de esta vía son mínimos.
               br
               br
-              |Para su administración el paciente debe estar en una posición sentado con la cabeza hacia el lado contrario de la aplicación y la oreja debe estar limpia y seca, la persona encargada de la administración del medicamento debe tener las manos limpias y el paciente debe esperar unos minutos antes de cambiar de posición para evitar pérdida del medicamento.
+              |Para su administración el paciente debe estar en una posición sentada con la cabeza hacia el lado contrario de la aplicación y la oreja debe estar limpia y seca, la persona encargada de la administración del medicamento debe tener las manos limpias y el paciente debe esperar unos minutos antes de cambiar de posición para evitar pérdida del medicamento.
         .d-flex.flex-wrap(titulo="Inhalatoria")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-35.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
-            p Las formas farmacéuticas que hacen parte de esta vía son las gaseosas. Es una vía fácil de utilizar ya que los medicamentos vienen en presentaciones que ayudan a esto.
+            p Las formas farmacéuticas que hacen parte de esta vía son las gaseosas. Es una vía fácil de utilizar, ya que los medicamentos vienen en presentaciones que ayudan a esto.
+            p.mb-0 Para su administración en el caso de los inhaladores se deben agitar antes de usar y son de uno personal; en el caso de utilizar nebulizadores o mascarillas se debe asegurar que estas estén bien puestas para evitar escapes de medicamento.
         .d-flex.flex-wrap(titulo="Rectal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-36.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4 
             p Las formas farmacéuticas que hacen parte de esta vía son los supositorios y enemas rectales. Esta vía es de rápida absorción por la gran vascularización del recto.
-            p Para su administración la persona encargada de la administración debe tener las manos limpias. En el caso de los supositorios el paciente puede ponerse en cuclillas o acostarse de lado y para el enema debe seguir las instrucciones de uso. 
+            p Para su administración la persona encargada de la administración, debe tener las manos limpias. En el caso de los supositorios, el paciente puede ponerse en cuclillas o acostarse de lado y para el enema debe seguir las instrucciones de uso. 
         .d-flex.flex-wrap(titulo="Vaginal")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-37.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
             p Las formas farmacéuticas que hacen parte de esta vía son los óvulos, tabletas vaginales y cremas. Los medicamentos aplicados por esta vía tienen acción local y se absorben a través de la membrana lipoidea.
               br
               br
-              |Para la administración la persona encargada de ello debe tener las manos limpias. En el caso de los óvulos y las tabletas vaginales la paciente puede ponerse en cuclillas, acostarse y levantar las piernas abiertas, estar de pie y levantar una pierna o estar sentada en el baño. En el caso de las cremas por lo general estas traen aplicador para cada dosis lo que permite su fácil aplicación. En todos los casos se debe leer el prospecto antes de administrar el medicamento.
+              |Para la administración, la persona encargada de ello debe tener las manos limpias. En el caso de los óvulos y las tabletas vaginales, la paciente puede ponerse en cuclillas, acostarse y levantar las piernas abiertas, estar de pie y levantar una pierna o estar sentada en el baño. En el caso de las cremas, por lo general estas traen aplicador para cada dosis, lo que permite su fácil aplicación. En todos los casos se debe leer el prospecto antes de administrar el medicamento.
         .d-flex.flex-wrap(titulo="Parental")
           img.mb-auto(src='@/assets/curso/temas/tema6/img-38.jpg' style="max-width: 295px" alt="Imagen decorativa")
           .col-md.ps-md-4
-            p Las formas farmacéuticas que hacen parte de esta vía son los inyectables que pueden administrarse vía intravenosa, intramuscular, intratecal y subcutánea.
+            p Las formas farmacéuticas que hacen parte de esta vía son los inyectables, que pueden administrarse vía intravenosa, intramuscular, intratecal y subcutánea.
               br
               br
-              |Vía intravenosa (I.V): es la vía más rápida de absorción, por lo que en caso de reacción adversa al medicamento no es fácil revertir la acción. El medicamento se inyecta directamente en vena ya sea superficial o cutánea. Es una vía que permite la administración de grandes volúmenes de líquidos. Esta vía no está autorizada a nivel farmacéutico.
+              |Vía intravenosa (I.V): es la vía más rápida de absorción, por lo que en caso de reacción adversa al medicamento no es fácil revertir la acción. El medicamento se inyecta directamente en vena, ya sea superficial o cutánea. Es una vía que permite la administración de grandes volúmenes de líquidos. Esta vía no está autorizada a nivel farmacéutico.
               br
               br
               |Vía intramuscular (I.M): es la vía por medio de la cual el medicamento se inyecta en un musculo, normalmente en el de la cadera, seguido del antebrazo y la pierna. Su absorción es lenta pro su efecto es a largo plazo y solo permite administrar máximo 5ml de medicamento. Está autorizada a nivel farmacéutico.
@@ -283,10 +284,10 @@
               |Vía subcutánea (SC): El medicamento se aplica debajo de la piel justo en el tejido adiposo. Su absorción es lenta y solo permite pequeñas cantidades de medicamento. Está autorizada a nivel farmacéutico.
     .titulo-segundo.color-acento-contenido
       h2#t_6_3 6.3	Manejo de residuos y políticas posconsumo
-    p.mb-5(data-aos="fade-right") Los medicamentos utilizados por los pacientes por diferentes causas como cambios de tratamiento, vencimiento o sobrantes, se convierten en residuos, los cuales deben ser manejados de forma diferente a los residuos que se originan en casa.
+    p.mb-5(data-aos="fade-right") Los medicamentos utilizados por los pacientes por diferentes causas, como cambios de tratamiento, vencimiento o sobrantes, se convierten en residuos, los cuales deben ser manejados de forma diferente a los residuos que se originan en casa.
       br
       br
-      |Por tal motivo el Ministerio de Ambiente y Desarrollo Sostenible viene trabajando una estrategia con el propósito de fomentar la gestión ambiental adecuada de los residuos posconsumo con el objetivo que estos sean sujetos a sistemas de gestión diferencial y eludir que la disposición final se realice conjuntamente con los residuos hogareños. 
+      |Por tal motivo, el Ministerio de Ambiente y Desarrollo Sostenible viene trabajando una estrategia con el propósito de fomentar la gestión ambiental adecuada de los residuos posconsumo con el objetivo que estos sean sujetos a sistemas de gestión diferencial y eludir que la disposición final se realice conjuntamente con los residuos hogareños. 
       br
       |Uno de los siete programas posconsumo es el de los medicamentos vencidos, que solo incluye los siguientes residuos:
     .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4.mb-5(style="background-color: #F7F6FE")
@@ -305,11 +306,11 @@
       br
       |En la siguiente imagen se ilustran los tipos de contenedores que pueden utilizarse para depositar los residuos.
     .col-lg-10.col-xl-8.mx-auto.mb-5
-      .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-        p.mb-0.text-small Figura 4
-        span.text-small Contenedores para depositar residuos
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 5.
+        span Contenedores para depositar residuos
       img(src="@/assets/curso/temas/tema6/img-39.jpg" data-aos="fade-left" alt="Imagen muestra 4 contenedores para depositar residuos con tapas de color azul, vede, amarillo y roja ")
-    p.mb-5(data-aos="fade-right") La entrega de los residuos se debe realiza bajo los siguientes parámetros:
+    p.mb-5(data-aos="fade-right") La entrega de los residuos se debe realizar bajo los siguientes parámetros:
     .col-12.col-lg-10.mx-auto.tarjeta.my-auto.p-4(style="background-color: #F7F6FE")
       ul
         li.d-flex.align-items-start.mb-4

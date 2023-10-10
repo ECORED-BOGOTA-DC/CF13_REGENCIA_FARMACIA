@@ -17,9 +17,9 @@
         |A continuación, se proponen algunos hábitos de vida saludable:
     .container-edit-2(data-aos="fade-right")(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-1.svg')})`}")
       .col-lg-10.col-xl-8.mx-auto.py-5
-        .titulo-sexto.color-acento-botones.mb-4
-          p.fw-bold.mb-0.text-small Figura 2
-          span.text-small Hábitos de vida saludable
+        .titulo-sexto.color-acento-botones
+          h5 Figura 4.
+          span Hábitos de vida saludable
         img(src="@/assets/curso/temas/tema4/img-2.svg" alt="Muestra imagen con 10 hábitos de vida saludable que se describen parte inferior.")
 </template>
 
