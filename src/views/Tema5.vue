@@ -389,7 +389,7 @@
               li.mb-3
                 .d-flex.align-items-start
                   img.me-2(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 15px; margin-top: 5px")
-                  p.mb-0 Si todo está correcto el Químico Farmacéutico o a quien este delegue (Regente de Farmacia) procede a elaborar el perfil farmacoterapéutico, el cual es un formato donde se registran todos los datos del paciente como:
+                  p.mb-0 Si todo ésta correcto, el Químico Farmacéutico o a quien este delegue (Regente de Farmacia) procede a elaborar el perfil farmacoterapéutico, el cual es un formato donde se registran todos los datos del paciente como:
                 ul.ps-4
                   li.d-flex.align-items-start.mb-3
                     img.me-2(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 15px; margin-top: 5px")

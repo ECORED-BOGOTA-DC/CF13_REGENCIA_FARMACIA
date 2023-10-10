@@ -313,7 +313,7 @@ export default {
     },
     {
       referencia:
-        'Unab. (s.f.). <em>Unidad 5: Dispensación y Distribución de medicamentos y dispositivos médicos.</em>',
+        'Unab. (s.f.). <em>Modelo de servicio para el trámite y dispensación de medicamentos de medicina prepagada Colsanitas en Bucaramanga y su área metropolitana.</em>',
       link:
         'https://repository.unab.edu.co/bitstream/handle/20.500.12749/15325/2021_Tesis_Heidy_Manoslva_Arias.pdf?sequence=1',
     },
